@@ -1,0 +1,78 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+    
+\begin{document}
+
+\title{Intrusion Detection Tools\\}
+
+\author{\IEEEauthorblockN{Kim André Næss, Dale Bada, Muhammad Javed Iqbal}
+\IEEEauthorblockA{\textit{Cyber Security} \\
+\textit{Noroff University College}\\
+Kristiansand, Oslo, Norway \\
+kim.naess@stud.noroff.no, dale.bada@stud.noroff.no, muhammad.iqbal@stud.noroff.no}
+}
+
+
+\maketitle
+
+\begin{abstract}
+Lorem ipsum dolor sit amet mollit sunt duis velit non aliquip in labore minim. Proident mollit pariatur nisi id minim incididunt excepteur voluptate ad fugiat sunt. Anim sint in reprehenderit exercitation laborum ex laboris quis anim consequat proident pariatur dolor labore in mollit pariatur velit laboris id aute. Culpa consequat aute dolore eu non ullamco culpa sit ipsum labore
+\end{abstract}
+
+\begin{IEEEkeywords}
+Lorem ipsum dolor sit amet mollit sunt duis velit non aliquip in labore minim.
+\end{IEEEkeywords}
+
+\section{Introduction}
+\input{sections/introduction}
+
+\section{Main topic - change to your topic name}
+\input{sections/topic/topic}
+
+\section{Ethical Issues}
+\input{sections/ethical_issues}
+
+\section{Summary}
+\input{sections/summary}
+
+\section{Conclusion}
+\input{sections/conclusion}
+
+\section*{Appendix A:  Citation Examples}
+\input{sections/citations}
+
+\bibliographystyle{IEEEtran}
+\bibliography{main}
+
+%%% DO NOT  modify below.
+\newcommand{\noroffcount}[1]{%
+\immediate\write18{texcount -v0 -q -total  -sum -merge -q #1.tex > #1-words.noroff }%
+  \input{#1-words.noroff} %
+}
+%
+%Words with Refs:\quickwordcount{main}
+%
+%Words Without refs: \quickwordcountnoref{main}
+
+\newcommand{\NUCwordcount}[1]{
+    \section*{Word count metrics}
+    \framebox{%
+    \begin{minipage}{0.95\textwidth}
+    \textbf{NUC Studio2 Word Count}:\\
+    \noroffcount{#1}
+    NOTE: References are excluded.
+    \end{minipage}}
+}
+
+\newpage
+\NUCwordcount{main}
+\end{document}
