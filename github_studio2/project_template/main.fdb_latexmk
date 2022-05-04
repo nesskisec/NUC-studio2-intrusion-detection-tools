@@ -1,15 +1,15 @@
 # Fdb version 3
-["bibtex main"] 1651705979 "main.aux" "main.bbl" "main" 1651705980
+["bibtex main"] 1651707259 "main.aux" "main.bbl" "main" 1651707259
   "./IEEEtran.bst" 1651705703 59214 a90e64071cc7185c225b4d6ec93de903 ""
-  "main.aux" 1651705980 1415 f61fa425e4c080168abaf3195db1d490 "pdflatex"
+  "main.aux" 1651707259 1415 f61fa425e4c080168abaf3195db1d490 "pdflatex"
   "main.bib" 1651699009 2197 3e1c24517a47e8decec178e858360498 ""
   (generated)
   "main.blg"
   "main.bbl"
-["pdflatex"] 1651705979 "/home/stdusr/Documents/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/main.tex" "/home/stdusr/Documents/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/main.pdf" "main" 1651705980
+["pdflatex"] 1651707259 "/home/stdusr/Documents/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/main.tex" "/home/stdusr/Documents/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/main.pdf" "main" 1651707259
   "/etc/texmf/web2c/texmf.cnf" 1651700746 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/stdusr/Documents/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/main.aux" 1651705980 1415 f61fa425e4c080168abaf3195db1d490 ""
-  "/home/stdusr/Documents/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/main.tex" 1651703465 2161 b74ec980942ef4f7099d64ea3c2ec804 ""
+  "/home/stdusr/Documents/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/main.aux" 1651707259 1415 f61fa425e4c080168abaf3195db1d490 ""
+  "/home/stdusr/Documents/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/main.tex" 1651707258 2161 b74ec980942ef4f7099d64ea3c2ec804 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -59,9 +59,9 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1651705967 165012 f177baa1c39a3ebd62c3096a43521a0d ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1651705970 4877565 97fee644c85f3e77102bc7e1840d493b ""
   "IEEEtran.cls" 1651705651 201353 dc6c0bccdd79f65a7a9a2f641a20f9e8 ""
-  "main.aux" 1651705980 1415 f61fa425e4c080168abaf3195db1d490 "pdflatex"
-  "main.bbl" 1651705979 2531 55879341ac0ee2e65136aab437eca28c "bibtex main"
-  "main.tex" 1651703465 2161 b74ec980942ef4f7099d64ea3c2ec804 ""
+  "main.aux" 1651707259 1415 f61fa425e4c080168abaf3195db1d490 "pdflatex"
+  "main.bbl" 1651707259 2531 55879341ac0ee2e65136aab437eca28c "bibtex main"
+  "main.tex" 1651707258 2161 b74ec980942ef4f7099d64ea3c2ec804 ""
   "sections/citations.tex" 1651699009 1791 1755eb8393344d9f1c8ddd8a8bdbdbc4 ""
   "sections/conclusion.tex" 1651699009 1841 1d462886bdd04a6612f23d4dea95f7ff ""
   "sections/ethical_issues.tex" 1651699009 1841 1d462886bdd04a6612f23d4dea95f7ff ""
@@ -73,7 +73,7 @@
   "sections/topic/topic.tex" 1651699009 2012 ce41678bcc1d40759f6d650bd0309113 ""
   (generated)
   "/home/stdusr/Documents/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/main.pdf"
-  "/home/stdusr/Documents/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/main.log"
-  "main.log"
-  "main.aux"
   "main.pdf"
+  "main.log"
+  "/home/stdusr/Documents/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/main.log"
+  "main.aux"
