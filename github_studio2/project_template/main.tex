@@ -36,12 +36,25 @@
 
 % ------ START Custom Section For environment settings ------
 
-\newenvironment{notes}[1][\unskip]{%
+\newenvironment{notes}[1][\unskip]
+{
 \par
 \noindent
 \textcolor{blue}{\bfseries{Notes - } #1:}
 \\ \color{blue}}
 {}
+
+% \newenvironment{notes}[1]
+%     {\begin{center}
+%     #1\\[1ex]
+%     \begin{tabular}{|p{50mm}|}
+%     \hline\\
+%     }
+%     { 
+%     \\\\\hline
+%     \end{tabular} 
+%     \end{center}
+%     }
 
 \newenvironment{followup}[1][\unskip]{%
 \par
@@ -93,7 +106,7 @@ kim.naess@stud.noroff.no, dale.bada@stud.noroff.no, muhammad.iqbal@stud.noroff.n
 \begin{IEEEkeywords}
 
   \begin{question}[Question for Ian]
-  What are exptected to be in the index of terms?
+  What are expected to be in the index of terms?
 
     \begin{itemize}
       \item Keyword and their elaborations?
