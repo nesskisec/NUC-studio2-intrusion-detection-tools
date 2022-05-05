@@ -9,7 +9,67 @@
 \usepackage{xcolor}
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
-    
+
+% ------ START Custom Section For "usepackage" ------
+
+\usepackage{hyperref}
+\usepackage{epigraph}
+\usepackage{csquotes}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage{svg}
+\usepackage{float} % Enables you to force a "floating object" like the environments 'figure' and 'table' inline with the text.
+\usepackage{morefloats} % Enalbes LaTeX to exceed the maximum 18 floats in a document.
+\usepackage{nameref}
+\usepackage{wrapfig}
+\usepackage{subcaption} % Enable pictures to be aligned side by side. NOT COMPATIBLE with adjustbox.
+\usepackage{adjustbox}
+
+% packages for typesetting source-code
+\usepackage{listings} % Required for inserting code snippets
+
+% Optional packages
+\usepackage{blindtext} % Sample text, false content, Lorem Ipsum type of random generated text.
+
+% ------ END Custom Section For "usepackage" ------
+
+
+% ------ START Custom Section For environment settings ------
+
+\newenvironment{notes}[1][\unskip]{%
+\par
+\noindent
+\textcolor{blue}{\bfseries{Notes - } #1:}
+\\ \color{blue}}
+{}
+
+\newenvironment{followup}[1][\unskip]{%
+\par
+\noindent
+\textcolor{red}{\bfseries{Follow-up - } #1!!!}
+\\ \color{red}}
+{}
+
+\newenvironment{question}[1][\unskip]{%
+\par
+\noindent
+\textcolor{orange}{\bfseries{Question - } #1???}
+\\ \color{orange}}
+{}
+
+% Typesetting code snippets
+% The code snippet typesetting below is based on https://www.latextemplates.com/template/code-snippet
+% Original Author: This template was created for LaTeXTemplates.com by vel@latextemplates.com
+\definecolor{DarkGreen}{rgb}{0.0,0.4,0.0} % Comment color
+\definecolor{highlight}{RGB}{204,255,229} % Code highlight color
+\definecolor{Gray}{RGB}{224,224,224}
+\definecolor{Purple}{RGB}{255,0,255}
+\definecolor{Blue}{RGB}{0,0,255}
+
+% ------ END Custom Section For environment settings ------
+
+
+
 \begin{document}
 
 \title{Intrusion Detection Tools\\}
@@ -24,9 +84,11 @@ kim.naess@stud.noroff.no, dale.bada@stud.noroff.no, muhammad.iqbal@stud.noroff.n
 
 \maketitle
 
-\begin{abstract}
-Lorem ipsum dolor sit amet mollit sunt duis velit non aliquip in labore minim. Proident mollit pariatur nisi id minim incididunt excepteur voluptate ad fugiat sunt. Anim sint in reprehenderit exercitation laborum ex laboris quis anim consequat proident pariatur dolor labore in mollit pariatur velit laboris id aute. Culpa consequat aute dolore eu non ullamco culpa sit ipsum labore
-\end{abstract}
+\input{sections/abstract}
+
+% \begin{abstract}
+% Lorem ipsum dolor sit amet mollit sunt duis velit non aliquip in labore minim. Proident mollit pariatur nisi id minim incididunt excepteur voluptate ad fugiat sunt. Anim sint in reprehenderit exercitation laborum ex laboris quis anim consequat proident pariatur dolor labore in mollit pariatur velit laboris id aute. Culpa consequat aute dolore eu non ullamco culpa sit ipsum labore
+% \end{abstract}
 
 \begin{IEEEkeywords}
 Lorem ipsum dolor sit amet mollit sunt duis velit non aliquip in labore minim.

@@ -21,6 +21,13 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{gartner}
+\BIBentryALTinterwordspacing
+Gartner, ``Definition of small and midsize business - it glossary | gartner.''
+  [Online]. Available:
+  \url{https://www.gartner.com/en/information-technology/glossary/smbs-small-and-midsize-businesses}
+\BIBentrySTDinterwordspacing
+
 \bibitem{anarticle}
 A.~B. Cummings, D.~Eftekhary, and F.~G. House, ``The accurate determination of
   college students’ coefficients of friction,'' \emph{Journal of Sketchy
