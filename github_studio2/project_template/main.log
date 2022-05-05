@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.5.5)  5 MAY 2022 12:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.5.5)  5 MAY 2022 19:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -734,33 +734,18 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count345
- (/home/stdusr/Documents/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/abstract.tex) (/home/stdusr/Documents/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/introduction.tex) (/home/stdusr/Documents/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/topic/topic.tex (/home/stdusr/Documents/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/topic/subtopic1.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
-
-]) (/home/stdusr/Documents/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/topic/subtopic2.tex) (/home/stdusr/Documents/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/topic/subtopic3.tex)) (/home/stdusr/Documents/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/ethical_issues.tex) (/home/stdusr/Documents/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/summary.tex [2]) (/home/stdusr/Documents/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/conclusion.tex) (/home/stdusr/Documents/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/citations.tex
-Underfull \hbox (badness 10000) in paragraph at lines 1--2
-
- []
-
-) (/home/stdusr/Documents/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/main.bbl
-LaTeX Font Info:    Trying to load font information for U+msa on input line 28.
+ (/home/stdusr/Documents/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/abstract.tex)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 99.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 28.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 99.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Underfull \hbox (badness 3323) in paragraph at lines 67--68
-[]\OT1/ptm/m/n/8 ------, ``Be-hav-ior of small an-i-mals on fire,'' 2012, un-pub-lished
- []
+) (/home/stdusr/Documents/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/introduction.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
-Underfull \hbox (badness 3323) in paragraph at lines 70--71
-[]\OT1/ptm/m/n/8 ------, ``Be-hav-ior of small an-i-mals on fire,'' 2012, un-pub-lished
- []
-
-) [3]
+]) (/home/stdusr/Documents/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/topic/topic.tex (/home/stdusr/Documents/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/topic/subtopic1.tex) (/home/stdusr/Documents/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/topic/subtopic2.tex) (/home/stdusr/Documents/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/topic/subtopic3.tex)) (/home/stdusr/Documents/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/ethical_issues.tex) (/home/stdusr/Documents/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/summary.tex) (/home/stdusr/Documents/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/conclusion.tex) (/home/stdusr/Documents/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/citations.tex) (/home/stdusr/Documents/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/main.bbl)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -772,28 +757,31 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 142.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 142.
-(/home/stdusr/Documents/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 142.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 142.
+[2
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 155.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 155.
+ (/home/stdusr/Documents/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 155.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 155.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9AD48BE797EE264AD9994AF14F96F740;476.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 142.
+(rerunfilecheck)             Checksum: 318E4CC5CC40524B87F62CC64EE3D7A4;844.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 155.
  ) 
 Here is how much of TeX's memory you used:
- 23049 strings out of 483107
- 423164 string characters out of 5964631
- 700526 words of memory out of 5000000
- 37552 multiletter control sequences out of 15000+600000
- 566586 words of font info for 88 fonts, out of 8000000 for 9000
+ 23054 strings out of 483107
+ 423266 string characters out of 5964631
+ 698234 words of memory out of 5000000
+ 37560 multiletter control sequences out of 15000+600000
+ 569663 words of font info for 100 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 60i,9n,61p,1027b,385s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /home/stdusr/Documents/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/main.pdf (3 pages, 68291 bytes).
+ 60i,9n,61p,1273b,382s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on /home/stdusr/Documents/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/main.pdf (2 pages, 78530 bytes).
 PDF statistics:
- 113 PDF objects out of 1000 (max. 8388607)
- 102 compressed objects within 2 object streams
- 26 named destinations out of 1000 (max. 500000)
- 85 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 111 PDF objects out of 1000 (max. 8388607)
+ 100 compressed objects within 1 object stream
+ 19 named destinations out of 1000 (max. 500000)
+ 117 words of extra memory for PDF output out of 10000 (max. 10000000)
 

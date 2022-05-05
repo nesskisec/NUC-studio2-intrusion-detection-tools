@@ -1,5 +1,31 @@
-Eiusmod consequat Lorem occaecat ut adipisicing in Lorem. Ad ullamco labore, ipsum quis duis et in excepteur veniam nisi cupidatat veniam deserunt dolore sit consequat et excepteur tempor esse amet. Lorem voluptate nostrud aliquip incididunt nisi ipsum sint ad irure officia nulla deserunt incididunt ullamco dolor. Velit aute commodo adipisicing, eu aute amet quis ea cupidatat aliqua Lorem do pariatur quis dolor. Eu labore esse ullamco Lorem quis reprehenderit enim nisi do consequat consectetur officia ipsum irure enim ad laboris reprehenderit pariatur cupidatat enim laboris. Minim do ullamco aute sunt ut veniam.
+\subsection{A brief background and history}
 
-Quis anim pariatur proident, et laborum velit aute ea aliqua ullamco irure cupidatat non proident magna esse. Laboris eiusmod elit do cupidatat incididunt cupidatat ad non. Dolore officia aliquip ut sit adipisicing voluptate aute adipisicing. Consequat excepteur irure pariatur Lorem laborum est eiusmod, velit ex ipsum non sit. Duis tempor, amet qui dolor ex et qui occaecat culpa. Consequat amet sit aute occaecat sint deserunt, anim aute pariatur dolor. Voluptate irure dolor eu culpa dolore irure dolore veniam.
+IDS and IPS are a category of network tools or systems to detect and prevent malicious network activities. One of the earliest network based security defenses was firewall. Firewalls were later complimented with IDS' as network administrators and security personnel came to acknowledge that firewalls may allow malicious  communications, both in and out bound, via valid sessions. Thus were IDS' introduced, which had the capability to inspect and validate individual packet and validate signatures of different indictors of compromise (IOC). Which are able to alert the administrators of positively identified malicious communication.
 
+\subsection{Evolving Threat Landscape and Countermeasures}
 
+IDS' were initially installed on a host server (HIDS), then specific network IDS devices (NIDS) excelarated its market penetration by providing IDS functionality an a more conveniently deployable and manageble unit.
+
+\begin{followup}[to-do]
+    \begin{itemize}
+        \item Expand on IPS, with some historical information.
+        \item Describe current threats
+        \item Elaborate on IPS evolving to, or its relation with, next-gen firewalls.
+        \item Establish a segway to SIM, EM then SIEM and its further evolution to XDRs.
+    \end{itemize}
+\end{followup}
+
+\subsection{Detection and Prevention for SMBs'}
+
+SIEMs' are typically deployed in larger Enterprise IT environments. SIEMs takes center the stage in a companies Security Operations Center (SOC). These are often complex systems due to business process integration, or systems integration with IT Service Management tools like SolarWinds, ServiceNow og Jira, to name a few. All of the above drives cost of ownership up. Some may opt to subscribe to SOC as services to reduce cost. SMBs may aso choose to omit certain features and functionalities SIEMs offer, and choose a solution based on open source software with comparable functionality. As such, the scope of this state-of-art review are open source IDS systems. Though occasionally, we will look at how an IDS relates to a larger tool chain, systems or technologies. This is inevitable as security relies on a layered approach, and reliance on a single tool, method or policy is bad practice. It is also relevant to assess an IDS as part of a companies infrastructure roadmap as the company scales up.
+
+\subsection{Addressing SMBs' most prevalent network threat with IDS/IPS}
+
+IDS and IPS has a significant drawback against the primary network threat SMBs are facing today; namely malware and Ransomware, as identified in the Norsis \cite{Norsis2021} threat report for 2021. IDS and IPS main function is to detect, alert and prevent threats that are traversing the network. Malware and ransomware on the other hand are resident on a host. Malware and ransomware are also designed to be as stealthy as possible while at rest on the host and when initiating communication on the network. They apply various techniques to obfuscate their existance on the host. And they can piggy-back on trusted network sessions. While the binary signatures detection tools use to identify them on delivery are rendered unusable with a simple recompilation or more advanced polymophic coding techniques. Therefore it is crucial that IDS and IPS are deployed together with other security tools and systems to be able to maximize its utilization. Larger network may also benefit from properly segmented and architecturally designed with security in mind. As always, a layered secuirty approach must be applied.
+
+\begin{followup}[to-do]
+    \begin{itemize}
+        \item Find appropriate reference material describing modern/advance malware and ransomeware.
+    \end{itemize}
+    
+\end{followup}
