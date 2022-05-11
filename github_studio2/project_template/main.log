@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.16)  11 MAY 2022 08:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.16)  11 MAY 2022 10:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -665,43 +665,67 @@ File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
 File: listings.cfg 2019/09/10 1.8c listings configuration
 ))
 Package: listings 2019/09/10 1.8c (Carsten Heinz)
+ (/usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count321
+\c@Blindtext=\count322
+\c@blind@countparstart=\count323
+\blind@countxx=\count324
+\blindtext@numBlindtext=\count325
+\blind@countyy=\count326
+\c@blindlist=\count327
+\c@blindlistlevel=\count328
+\c@blindlist@level=\count329
+\blind@listitem=\count330
+\c@blind@listcount=\count331
+\c@blind@levelcount=\count332
+\blind@mathformula=\count333
+\blind@Mathformula=\count334
+\c@blind@randomcount=\count335
+\c@blind@randommax=\count336
+\c@blind@pangramcount=\count337
+\c@blind@pangrammax=\count338
+)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
  (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count321
+\l__kernel_color_stack_int=\count339
 \l__pdf_internal_box=\box70
 ) (/home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count322
+\scratchcounter=\count340
 \scratchdimen=\dimen300
 \scratchbox=\box71
-\nofMPsegments=\count323
-\nofMParguments=\count324
+\nofMPsegments=\count341
+\nofMParguments=\count342
 \everyMPshowfont=\toks41
-\MPscratchCnt=\count325
+\MPscratchCnt=\count343
 \MPscratchDim=\dimen301
-\MPnumerator=\count326
-\makeMPintoPDFobject=\count327
+\MPnumerator=\count344
+\makeMPintoPDFobject=\count345
 \everyMPtoPDFconversion=\toks42
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -710,10 +734,10 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 \AtBeginShipoutBox=\box72
-Package hyperref Info: Link coloring OFF on input line 88.
-LaTeX Info: Redefining \ref on input line 88.
-LaTeX Info: Redefining \pageref on input line 88.
-LaTeX Info: Redefining \nameref on input line 88.
+Package hyperref Info: Link coloring OFF on input line 89.
+LaTeX Info: Redefining \ref on input line 89.
+LaTeX Info: Redefining \pageref on input line 89.
+LaTeX Info: Redefining \nameref on input line 89.
  (/home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/main.out) (/home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -722,13 +746,13 @@ LaTeX Info: Redefining \nameref on input line 88.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count328
+\c@lstlisting=\count346
  (/home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/abstract.tex)
-LaTeX Font Info:    Trying to load font information for U+msa on input line 114.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 115.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 114.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 115.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/introduction.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
@@ -740,8 +764,103 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
  []
 
 (/home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/topic/subtopic1.tex
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-[]|   []   |   []   |   []   |   []   |   []   |   []   |   []
+Underfull \hbox (badness 3302) in paragraph at lines 3--4
+\OT1/ptm/m/n/10 De-tec-tion, Ac-tive Re-sponse, Com-pli-ance Au-dit-ing, File
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+[]\OT1/ptm/m/n/10 Gathering con-cret im-ple-men-ta-tion ex-am-ple where
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 24--27
+\OT1/ptm/m/n/10 ses-sions, de-tect-ing mal-ware by in-ter-act-ing with ex-ter-nal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--27
+
+ []
+
+
+Underfull \hbox (badness 4072) in paragraph at lines 34--36
+\OT1/ptm/m/n/10 in-ter-face is be-ing mon-i-tored, Zeek will cre-ate a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--36
+
+ []
+
+
+Underfull \hbox (badness 1845) in paragraph at lines 41--43
+[]\OT1/ptm/m/n/10 ZeeK/Bro's deep packet in-spec-tion con-sumes a lot
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--43
+
+ []
+
+
+Underfull \hbox (badness 6300) in paragraph at lines 47--49
+ \OT1/ptm/m/it/10 4) IBM QRADAR: [][][] \OT1/ptm/m/n/10 IBM has de-vel-oped QRadar, a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--49
+\OT1/ptm/m/n/10 tool for han-dling se-cu-rity is-sues [3]. Ad-di-tion-ally,
+ []
+
+
+Underfull \hbox (badness 5245) in paragraph at lines 47--49
+\OT1/ptm/m/n/10 it can anal-yse data from a wide range of sources
+ []
+
+
+Underfull \hbox (badness 4391) in paragraph at lines 47--49
+\OT1/ptm/m/n/10 (router/-fire-wal-l/ap-pli-ca-tion/-folder) and store and man-age
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--49
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 58--60
+[]\OT1/ptm/m/n/10 Security in-tel-li-gence so-lu-tions may be pro-vided
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 58--60
+\OT1/ptm/m/n/10 cost-effectively by man-aged ser-vice providers us-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--60
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--66
+
  []
 
 ) (/home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/topic/subtopic2.tex) (/home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/topic/subtopic3.tex
@@ -749,7 +868,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 []|   []   |   []   |   []   |   []   |   []   |   []   |   []
  []
 
-)) (/home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/ethical_issues.tex) (/home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/summary.tex) (/home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/conclusion.tex) (/home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/citations.tex) (/home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/main.bbl) [2]
+)) (/home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/ethical_issues.tex) (/home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/summary.tex) (/home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/conclusion.tex) (/home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/citations.tex) (/home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/main.bbl) [3] (/home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/illustrations.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+<./images/IBM-QRADAR.png, id=103, 963.6pt x 542.025pt>
+File: ./images/IBM-QRADAR.png Graphic file (type png)
+<use ./images/IBM-QRADAR.png>
+Package pdftex.def Info: ./images/IBM-QRADAR.png  used on input line 4.
+(pdftex.def)             Requested size: 516.0pt x 290.25757pt.
+)
+Overfull \hbox (274.0pt too wide) in paragraph at lines 4--173
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--173
+
+ []
+
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -761,28 +899,31 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 170.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 170.
-(/home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 170.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 170.
+[4
+
+ <./images/IBM-QRADAR.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 176.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 176.
+ (/home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 176.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 176.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 664D206D3C7997659550B29E731F1310;1009.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 170.
+(rerunfilecheck)             Checksum: 0E1F24CA974AB96F0409B478DF3D0F91;1273.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 176.
  ) 
 Here is how much of TeX's memory you used:
- 22978 strings out of 481239
- 421173 string characters out of 5920376
- 716790 words of memory out of 5000000
- 37723 multiletter control sequences out of 15000+600000
+ 23190 strings out of 481239
+ 424971 string characters out of 5920376
+ 712931 words of memory out of 5000000
+ 37917 multiletter control sequences out of 15000+600000
  569769 words of font info for 101 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,9n,61p,1268b,368s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,9n,61p,1268b,380s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/main.pdf (2 pages, 81808 bytes).
+Output written on /home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/main.pdf (4 pages, 700652 bytes).
 PDF statistics:
- 111 PDF objects out of 1000 (max. 8388607)
- 100 compressed objects within 1 object stream
- 19 named destinations out of 1000 (max. 500000)
- 117 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 139 PDF objects out of 1000 (max. 8388607)
+ 124 compressed objects within 2 object streams
+ 26 named destinations out of 1000 (max. 500000)
+ 154 words of extra memory for PDF output out of 10000 (max. 10000000)
 
