@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.16)  11 MAY 2022 10:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.16)  11 MAY 2022 19:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -763,131 +763,177 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 []|   []   |   []   |   []   |   []   |   []   |   []   |   []
  []
 
-(/home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/topic/subtopic1.tex
-Underfull \hbox (badness 3302) in paragraph at lines 3--4
+(/home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/topic/subtopic1.tex (/home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/topic/kim.tex
+Underfull \hbox (badness 3302) in paragraph at lines 4--5
 \OT1/ptm/m/n/10 De-tec-tion, Ac-tive Re-sponse, Com-pli-ance Au-dit-ing, File
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
+)
+Underfull \hbox (badness 10000) in paragraph at lines 8--2
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
+(/home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/topic/dale.tex
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
 []\OT1/ptm/m/n/10 Gathering con-cret im-ple-men-ta-tion ex-am-ple where
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
-
-Underfull \hbox (badness 1502) in paragraph at lines 24--27
+) (/home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/topic/muhammad.tex
+Underfull \hbox (badness 1502) in paragraph at lines 3--6
 \OT1/ptm/m/n/10 ses-sions, de-tect-ing mal-ware by in-ter-act-ing with ex-ter-nal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--27
+Underfull \hbox (badness 10000) in paragraph at lines 3--6
 
  []
 
 
-Underfull \hbox (badness 4072) in paragraph at lines 34--36
+Underfull \hbox (badness 4072) in paragraph at lines 13--15
 \OT1/ptm/m/n/10 in-ter-face is be-ing mon-i-tored, Zeek will cre-ate a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--36
+Underfull \hbox (badness 10000) in paragraph at lines 13--15
 
  []
 
 
-Underfull \hbox (badness 1845) in paragraph at lines 41--43
+Underfull \hbox (badness 1845) in paragraph at lines 20--22
 []\OT1/ptm/m/n/10 ZeeK/Bro's deep packet in-spec-tion con-sumes a lot
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--43
+Underfull \hbox (badness 10000) in paragraph at lines 20--22
 
  []
 
 
-Underfull \hbox (badness 6300) in paragraph at lines 47--49
+Underfull \hbox (badness 6300) in paragraph at lines 26--28
  \OT1/ptm/m/it/10 4) IBM QRADAR: [][][] \OT1/ptm/m/n/10 IBM has de-vel-oped QRadar, a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--49
+Underfull \hbox (badness 10000) in paragraph at lines 26--28
 \OT1/ptm/m/n/10 tool for han-dling se-cu-rity is-sues [3]. Ad-di-tion-ally,
  []
 
 
-Underfull \hbox (badness 5245) in paragraph at lines 47--49
+Underfull \hbox (badness 5245) in paragraph at lines 26--28
 \OT1/ptm/m/n/10 it can anal-yse data from a wide range of sources
  []
 
 
-Underfull \hbox (badness 4391) in paragraph at lines 47--49
+Underfull \hbox (badness 4391) in paragraph at lines 26--28
 \OT1/ptm/m/n/10 (router/-fire-wal-l/ap-pli-ca-tion/-folder) and store and man-age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--49
+Underfull \hbox (badness 10000) in paragraph at lines 26--28
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 58--60
+Underfull \hbox (badness 10000) in paragraph at lines 37--39
 []\OT1/ptm/m/n/10 Security in-tel-li-gence so-lu-tions may be pro-vided
  []
 
 
-Underfull \hbox (badness 1661) in paragraph at lines 58--60
+Underfull \hbox (badness 1661) in paragraph at lines 37--39
 \OT1/ptm/m/n/10 cost-effectively by man-aged ser-vice providers us-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--60
+Underfull \hbox (badness 10000) in paragraph at lines 37--39
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--66
+Underfull \hbox (badness 10000) in paragraph at lines 43--45
 
  []
 
-) (/home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/topic/subtopic2.tex) (/home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/topic/subtopic3.tex
+)) (/home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/topic/subtopic2.tex) (/home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/topic/subtopic3.tex
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 []|   []   |   []   |   []   |   []   |   []   |   []   |   []
  []
 
-)) (/home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/ethical_issues.tex) (/home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/summary.tex) (/home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/conclusion.tex) (/home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/citations.tex) (/home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/main.bbl) [3] (/home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/illustrations.tex
+)) (/home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/ethical_issues.tex) (/home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/summary.tex) (/home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/conclusion.tex) [3] (/home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/citations.tex) (/home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/main.bbl) (/home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/sections/illustrations.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-<./images/IBM-QRADAR.png, id=103, 963.6pt x 542.025pt>
+<./images/IBM-QRADAR.png, id=100, 963.6pt x 542.025pt>
 File: ./images/IBM-QRADAR.png Graphic file (type png)
 <use ./images/IBM-QRADAR.png>
 Package pdftex.def Info: ./images/IBM-QRADAR.png  used on input line 4.
-(pdftex.def)             Requested size: 516.0pt x 290.25757pt.
+(pdftex.def)             Requested size: 258.0pt x 145.12465pt.
+
+Overfull \hbox (16.0pt too wide) in paragraph at lines 4--5
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+File: ./images/IBM-QRADAR.png Graphic file (type png)
+<use ./images/IBM-QRADAR.png>
+Package pdftex.def Info: ./images/IBM-QRADAR.png  used on input line 9.
+(pdftex.def)             Requested size: 258.0pt x 145.12465pt.
+
+Overfull \hbox (16.0pt too wide) in paragraph at lines 9--10
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+ []
+
+File: ./images/IBM-QRADAR.png Graphic file (type png)
+<use ./images/IBM-QRADAR.png>
+Package pdftex.def Info: ./images/IBM-QRADAR.png  used on input line 14.
+(pdftex.def)             Requested size: 258.0pt x 145.12465pt.
+
+Overfull \hbox (16.0pt too wide) in paragraph at lines 14--15
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+File: ./images/IBM-QRADAR.png Graphic file (type png)
+<use ./images/IBM-QRADAR.png>
+Package pdftex.def Info: ./images/IBM-QRADAR.png  used on input line 19.
+(pdftex.def)             Requested size: 258.0pt x 145.12465pt.
 )
-Overfull \hbox (274.0pt too wide) in paragraph at lines 4--173
+Overfull \hbox (16.0pt too wide) in paragraph at lines 19--155
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--173
+Underfull \hbox (badness 10000) in paragraph at lines 19--155
 
  []
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 <./images/IBM-QRADAR.png>]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -899,31 +945,31 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4
+[5
 
- <./images/IBM-QRADAR.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 176.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 176.
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 181.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 181.
  (/home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 176.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 176.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 181.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 181.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 0E1F24CA974AB96F0409B478DF3D0F91;1273.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 176.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 181.
  ) 
 Here is how much of TeX's memory you used:
- 23190 strings out of 481239
- 424971 string characters out of 5920376
+ 23206 strings out of 481239
+ 425847 string characters out of 5920376
  712931 words of memory out of 5000000
- 37917 multiletter control sequences out of 15000+600000
+ 37923 multiletter control sequences out of 15000+600000
  569769 words of font info for 101 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,9n,61p,1268b,380s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/main.pdf (4 pages, 700652 bytes).
+Output written on /home/operations/Studies/NUC-studio2-intrusion-detection-tools/github_studio2/project_template/main.pdf (5 pages, 701086 bytes).
 PDF statistics:
- 139 PDF objects out of 1000 (max. 8388607)
- 124 compressed objects within 2 object streams
- 26 named destinations out of 1000 (max. 500000)
+ 143 PDF objects out of 1000 (max. 8388607)
+ 127 compressed objects within 2 object streams
+ 27 named destinations out of 1000 (max. 500000)
  154 words of extra memory for PDF output out of 10000 (max. 10000000)
 
