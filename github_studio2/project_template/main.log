@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.5.7)  24 MAY 2022 14:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.5.7)  24 MAY 2022 20:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -874,13 +874,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
  []
 
 (./sections/topic/c-kim.tex) (./sections/topic/c-dale.tex) (./sections/topic/c-muhammad.tex))) (./sections/ethical_issues.tex
-
-LaTeX Warning: Citation `Enforcementtracker.com' on page 3 undefined on input line 3.
-
-
-LaTeX Warning: Citation `Khraisat2019' on page 3 undefined on input line 5.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 1--12
 
  []
@@ -915,7 +908,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--12
 
  []
 
-[3]) (./sections/summary.tex) (./sections/conclusion.tex) [4] (./sections/citations.tex) (./main.bbl) (./sections/illustrations.tex) [5]
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 34--36
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+\OT1/ptm/m/n/10 pdfer-skjema-ol/regelverk/veiledere/dpia-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+
+ []
+
+) (./sections/summary.tex) (./sections/conclusion.tex) [4] (./sections/citations.tex) (./main.bbl
+Underfull \hbox (badness 2469) in paragraph at lines 73--77
+[]\OT1/ptm/m/n/8 Datatilsynet, ``Hvem m[]a ha per-son-ver-nom-bud? |
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--77
+\OT1/ptm/m/n/8 no / rettigheter-[]og-[]plikter / virksomhetenes-[]plikter / personvernombud /
+ []
+
+) (./sections/illustrations.tex) [5]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -928,25 +951,22 @@ Before submitting the final camera ready copy, remember to:
  process uses the appropriate paper size.
 
 (./main.aux)
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 229ED72BD629AAB9521B0E4904850BCC;3450.
  ) 
 Here is how much of TeX's memory you used:
- 27195 strings out of 478238
- 500859 string characters out of 5850457
- 810474 words of memory out of 5000000
- 44867 multiletter control sequences out of 15000+600000
+ 27210 strings out of 478238
+ 501277 string characters out of 5850457
+ 810849 words of memory out of 5000000
+ 44874 multiletter control sequences out of 15000+600000
  505145 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,9n,92p,1293b,448s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (5 pages, 92577 bytes).
+Output written on main.pdf (5 pages, 97768 bytes).
 PDF statistics:
- 148 PDF objects out of 1000 (max. 8388607)
- 129 compressed objects within 2 object streams
- 29 named destinations out of 1000 (max. 500000)
+ 184 PDF objects out of 1000 (max. 8388607)
+ 165 compressed objects within 2 object streams
+ 37 named destinations out of 1000 (max. 500000)
  149 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -14,8 +14,18 @@ Warning--entry type for "Norsis2021" isn't style-file defined
 --line 8 of file main.bib
 Warning--entry type for "Haberkorn2019" isn't style-file defined
 --line 35 of file main.bib
-Warning--I didn't find a database entry for "Enforcementtracker.com"
-Warning--I didn't find a database entry for "Khraisat2019"
+Warning--entry type for "EuropeanCommission-PII" isn't style-file defined
+--line 43 of file main.bib
+Warning--entry type for "Wolford-GDPR_outside_EU" isn't style-file defined
+--line 50 of file main.bib
+Warning--entry type for "Datatilsynet2019_personvernombud" isn't style-file defined
+--line 57 of file main.bib
+Warning--entry type for "Lovdata2021_ekomforskriften" isn't style-file defined
+--line 65 of file main.bib
+Warning--entry type for "Lovdata2018_Sikkerhetsloven" isn't style-file defined
+--line 73 of file main.bib
+Warning--entry type for "Lovdata2016_finansforetaksloven" isn't style-file defined
+--line 81 of file main.bib
 -- IEEEtran.bst version 1.12 (2007/01/11) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
@@ -23,45 +33,45 @@ Warning--empty journal in Courtland2017
 Warning--empty year in Courtland2017
 
 Done.
-You've used 4 entries,
+You've used 12 entries,
             4024 wiz_defined-function locations,
-            832 strings with 7841 characters,
-and the built_in function-call counts, 1436 in all, are:
-= -- 97
-> -- 16
-< -- 0
-+ -- 8
-- -- 4
-* -- 68
-:= -- 280
-add.period$ -- 8
-call.type$ -- 4
-change.case$ -- 4
+            870 strings with 9412 characters,
+and the built_in function-call counts, 4399 in all, are:
+= -- 327
+> -- 58
+< -- 2
++ -- 29
+- -- 14
+* -- 183
+:= -- 831
+add.period$ -- 24
+call.type$ -- 12
+change.case$ -- 12
 chr.to.int$ -- 0
-cite$ -- 6
-duplicate$ -- 118
-empty$ -- 138
-format.name$ -- 4
-if$ -- 280
+cite$ -- 14
+duplicate$ -- 371
+empty$ -- 430
+format.name$ -- 15
+if$ -- 911
 int.to.chr$ -- 0
-int.to.str$ -- 4
-missing$ -- 26
-newline$ -- 41
-num.names$ -- 4
-pop$ -- 85
+int.to.str$ -- 12
+missing$ -- 84
+newline$ -- 79
+num.names$ -- 11
+pop$ -- 259
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 100
+skip$ -- 328
 stack$ -- 0
-substring$ -- 4
-swap$ -- 57
-text.length$ -- 0
+substring$ -- 12
+swap$ -- 198
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 4
+type$ -- 12
 warning$ -- 2
-while$ -- 4
-width$ -- 5
-write$ -- 57
-(There were 7 warnings)
+while$ -- 11
+width$ -- 14
+write$ -- 134
+(There were 11 warnings)
