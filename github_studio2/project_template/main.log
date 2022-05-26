@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.5.7)  24 MAY 2022 20:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.5.7)  26 MAY 2022 00:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -783,13 +783,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--2
 
  []
 
-(./sections/topic/a-dale.tex
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
+(./sections/topic/a-dale.tex [2]
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
 []\OT1/ptm/m/n/10 Gathering con-cret im-ple-men-ta-tion ex-am-ple where
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
@@ -813,7 +813,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--15
 
  []
 
-[2]
+
 Underfull \hbox (badness 1845) in paragraph at lines 20--22
 []\OT1/ptm/m/n/10 ZeeK/Bro's deep packet in-spec-tion con-sumes a lot
  []
@@ -825,7 +825,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--22
 
 
 Underfull \hbox (badness 6300) in paragraph at lines 26--28
- \OT1/ptm/m/it/10 4) IBM QRADAR: [][][] \OT1/ptm/m/n/10 IBM has de-vel-oped QRadar, a
+ \OT1/ptm/m/it/10 3) IBM QRADAR: [][][] \OT1/ptm/m/n/10 IBM has de-vel-oped QRadar, a
  []
 
 
@@ -863,7 +863,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--39
 
  []
 
-
+[3]
 Underfull \hbox (badness 10000) in paragraph at lines 43--45
 
  []
@@ -908,7 +908,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--12
 
  []
 
-[3]
+[4]
 Underfull \hbox (badness 10000) in paragraph at lines 34--36
 
  []
@@ -928,17 +928,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
 
-) (./sections/summary.tex) (./sections/conclusion.tex) [4] (./sections/citations.tex) (./main.bbl
-Underfull \hbox (badness 2469) in paragraph at lines 73--77
+) (./sections/summary.tex) (./sections/conclusion.tex) [5] (./sections/citations.tex) (./main.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 45--50
+[]$\OT1/ptm/m/n/8 https : / / www . cisco . com / c / en / us / td / docs / security / ^^Lrepower / 70 / snort3 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--50
+\OT1/ptm/m/n/8 con^^Lg-[]guide / snort3-[]con^^Lguration-[]guide-[]v70 / getting-[]started-[]intrusion .
+ []
+
+
+Underfull \hbox (badness 2469) in paragraph at lines 97--101
 []\OT1/ptm/m/n/8 Datatilsynet, ``Hvem m[]a ha per-son-ver-nom-bud? |
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--77
+Underfull \hbox (badness 10000) in paragraph at lines 97--101
 \OT1/ptm/m/n/8 no / rettigheter-[]og-[]plikter / virksomhetenes-[]plikter / personvernombud /
  []
 
-) (./sections/illustrations.tex) [5]
+) (./sections/illustrations.tex) [6]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -952,21 +962,21 @@ Before submitting the final camera ready copy, remember to:
 
 (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 229ED72BD629AAB9521B0E4904850BCC;3450.
+(rerunfilecheck)             Checksum: 12B4DF9B850A1FF58DC8E6EF6A87CD32;4651.
  ) 
 Here is how much of TeX's memory you used:
- 27210 strings out of 478238
- 501277 string characters out of 5850457
- 810849 words of memory out of 5000000
- 44874 multiletter control sequences out of 15000+600000
+ 27228 strings out of 478238
+ 501695 string characters out of 5850457
+ 810064 words of memory out of 5000000
+ 44882 multiletter control sequences out of 15000+600000
  505145 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,9n,92p,1293b,448s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 94i,9n,92p,1599b,460s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (5 pages, 97768 bytes).
+Output written on main.pdf (6 pages, 103219 bytes).
 PDF statistics:
- 184 PDF objects out of 1000 (max. 8388607)
- 165 compressed objects within 2 object streams
- 37 named destinations out of 1000 (max. 500000)
- 149 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 223 PDF objects out of 1000 (max. 8388607)
+ 202 compressed objects within 3 object streams
+ 47 named destinations out of 1000 (max. 500000)
+ 189 words of extra memory for PDF output out of 10000 (max. 10000000)
 

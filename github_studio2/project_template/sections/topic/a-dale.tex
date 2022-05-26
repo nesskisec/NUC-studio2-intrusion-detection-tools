@@ -1,3 +1,22 @@
+
+\subsection{Snort - An Introduction}
+
+As of 2022, there are 2 major versions of Snort installation base, namely Snort 2.X and Snort 3.X. There are 3 key, and perhaps the most noticable, differences between Snort 2 and Snort 3. It has to do with performance optimization, detection rules and software distribution. With regards to performance, Snort 3 code base has been refactored and optimized and it also now support multi-threading. Enabling Snort 3 to perform packet analysis multi-threaded. Snort 3 has also improved Rules syntax and parsing using LUA programming language \cite{Snort2020_MunshawJ}. Since Snort3 was first introduced not too long ago, in 2021-01-19, the Snort 2.X installation base can be expected to have a long tail. Even though Snort 3.X introduced many meaningful improvements, Snort 2.X still do function and is still a supported product. Both by the its vendor, other service providers, the Open Source community and its users. For instance, the publicly available rules set are still being maintained and updated for both Snort 2.X and 3.X. 
+
+\subsection{Snort - Reliable and Well Supported}
+
+Along with technical specs, features and functionalities, the product and vendor reliability and confidence define the key factors that are assessed and evaluated prior to implementation and deployment. Specially for a crucial component that goes into a security system. Having Cisco Systems, a large Fortune500 company, and a leading network security vendor, provides Snort the trust and confidence in troves. For example, the backbone of Snort is its Rules which enables Snort to detect malicious network sessions. The basic Snort installation provides a basic set of rules. This rules are publicly available for free as provided and maintained by the researchers from Cisco Talos Intelligence Group, whom are the official content creators for Snort. Cisco Systems, together with a large and engaged Open Source community, provides a freely available vailable version of the product for non-enterprise or SMB users.
+
+\subsection{Snort - As a Intrution Dectection And Prevension System}
+
+Snort's 3 main features or mode of operation, as ofted cited in many Snort tutorial blog post entries, how-to videos on YouTube and Wikipedia are; Packet Sniffer, Packet Logger and Network Intrusion Detection System mode\cite{Wikipedia2022_Snort}. However, Cisco Systems themselves often refer to Snort as an Intrution Prevention System in their documentation\cite{Ciscco_Snort3_Configuration_Guide_v7} and Cisco Talos Intelligence Group's YouTube video\cite{TIG2020_Snort_101}. As a packet sniffer, it is capable to capture, interpret and process packets akin to Wireshark and tcpdump. As a packet logger Snort can capture network packets (without analyzing) and store them for further analysis.As an Intrution Detector, Snort has the ability to log events, trigger alerts and other systems it can integrate with like SIEMs. As an Intrution Prevention System, it can drop packets from the network or trigger other systems that are able to execute preventive meassures.
+
+\subsection{Snort - Processing Network Packets}
+
+Network packets are processed by Snort in 5 stages. Stage 1 is the is called the "Packet", where the network packet is accepted by the system for processing. Stage 2 is the "Decoder" which determines what protocol is used and performs protocol header analysis where is can identify malformed header. This stage prepares the packet for further inspection. Stage 3 is the "Preprocessor" where the packet is normalized using Snort plug-ins. Plug-ins that allow Snort to process specifc type of network traffic. Preprocessing entails eliminating anti IDS and IPS techniques and reformats the packets for easier analysis where Snort rules can be applied. Stage 4 is where the "Detection" is performed. This stage makes use of the rule sets available and applies it using a decision tree to determines if a packet is malicious. This stage has the ability to send an alert or prevent an intrution by accepting or dropping the packet. Stage 5 is the "Log and Verdict" stage that performs the traffic logging. The logs can be forwarded to a log processor like Splunk or compatible SIEM. The article "Deep Packet Inspection for Intrusion Detection Systems: A Survey" by Tamer AbuHmed et al. throughly describes the intrution dection process and expands in detail the algorithms used by the system \cite{Tamer_et_al2008_Deep_Packet_Inspections}.
+
+
+
 \subsubsection{SNORT}
 
 \begin{notes}[Individual subtopic - SNORT]
@@ -47,3 +66,4 @@ What are malwares:
 - Ransomware
 - APT
 - Zero Days
+

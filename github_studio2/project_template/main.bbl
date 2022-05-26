@@ -21,18 +21,42 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{gartner}
-\BIBentryALTinterwordspacing
-Gartner, ``Definition of small and midsize business - it glossary | gartner.''
-  [Online]. Available:
-  \url{https://www.gartner.com/en/information-technology/glossary/smbs-small-and-midsize-businesses}
-\BIBentrySTDinterwordspacing
-
 \bibitem{Norsis2021}
 \BIBentryALTinterwordspacing
 Norsis, ``Norsis trusler trender 2021 digital,'' 2021. [Online]. Available:
   \url{https://norsis.no//wp-content/uploads/2021/03/NorSIS_Trusler_Trender_2021_Digital.pdf}
 \BIBentrySTDinterwordspacing
+
+\bibitem{Snort2020_MunshawJ}
+\BIBentryALTinterwordspacing
+J.~Munshaw, ``Snort blog: The major differences that set snort 3 apart from
+  snort 2,'' 8 2020. [Online]. Available:
+  \url{https://blog.snort.org/2020/08/snort-3-2-differences.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Wikipedia2022_Snort}
+\BIBentryALTinterwordspacing
+Wikipedia, ``Snort (software) - wikipedia,'' 4 2022. [Online]. Available:
+  \url{https://en.wikipedia.org/wiki/Snort_(software)}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Ciscco_Snort3_Configuration_Guide_v7}
+\BIBentryALTinterwordspacing
+Cisco, ``Firepower management center snort 3 configuration guide, version 7.0 -
+  getting started with snort 3 intrusion policies [cisco firepower management
+  center] - cisco.'' [Online]. Available:
+  \url{https://www.cisco.com/c/en/us/td/docs/security/firepower/70/snort3/config-guide/snort3-configuration-guide-v70/getting-started-intrusion.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{TIG2020_Snort_101}
+\BIBentryALTinterwordspacing
+C.~T.~I. Group, ``(1207) snort 101 - youtube,'' 2 2020. [Online]. Available:
+  \url{https://www.youtube.com/watch?v=W1pb9DFCXLw}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Tamer_et_al2008_Deep_Packet_Inspections}
+T.~Abuhmed, D.~Mohaisen, and D.~Nyang, ``A survey on deep packet inspection for
+  intrusion detection systems,'' 03 2008.
 
 \bibitem{Enforcementtracker.com}
 ``Gdpr enforcement tracker - list of gdpr fines,'' Available at \url{
