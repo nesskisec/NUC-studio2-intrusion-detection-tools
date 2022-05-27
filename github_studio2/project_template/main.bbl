@@ -200,4 +200,21 @@ M.~Hamdan, ``(1216) snort ids / ips complete practical guide | tryhackme -
   \url{https://www.youtube.com/watch?v=pvPdOO2VcwM&t=870s}
 \BIBentrySTDinterwordspacing
 
+\bibitem{322221656}
+A.~F. Agarap, ``Towards building an intelligent anti-malware system: A deep
+  learning approach using support vector machine (svm) for malware
+  classification,'' 5 2017.
+
+\bibitem{358776502}
+F.~Mokbal, W.~Dan, M.~Osman, Y.~Ping, and S.~Alsamhi, ``An efficient intrusion
+  detection framework based on embedding feature selection and ensemble
+  learning technique,'' \emph{The International Arab Journal of Information
+  Technology}, vol.~19, 5 2022.
+
+\bibitem{8674233}
+B.~M. Khammas, S.~Hasan, R.~A. Ahmed, J.~S. Bassi, and I.~Ismail, ``Accuracy
+  improved malware detection method using snort sub-signatures and machine
+  learning techniques,'' in \emph{2018 10th Computer Science and Electronic
+  Engineering (CEEC)}, 2018, pp. 107--112.
+
 \end{thebibliography}

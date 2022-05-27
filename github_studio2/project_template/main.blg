@@ -19,74 +19,75 @@ Warning--entry type for "Techfunnel" isn't style-file defined
 Warning--entry type for "YouTube2022_HamdanM" isn't style-file defined
 --line 83 of file main.bib
 Warning--entry type for "Haberkorn2019" isn't style-file defined
---line 133 of file main.bib
+--line 166 of file main.bib
 Warning--entry type for "EuropeanCommission-PII" isn't style-file defined
---line 141 of file main.bib
+--line 174 of file main.bib
 Warning--entry type for "Wolford-GDPR_outside_EU" isn't style-file defined
---line 148 of file main.bib
+--line 181 of file main.bib
 Warning--entry type for "Datatilsynet2019_personvernombud" isn't style-file defined
---line 155 of file main.bib
+--line 188 of file main.bib
 Warning--entry type for "Lovdata2021_ekomforskriften" isn't style-file defined
---line 163 of file main.bib
-Warning--entry type for "Lovdata2018_Sikkerhetsloven" isn't style-file defined
---line 171 of file main.bib
-Warning--entry type for "Lovdata2016_finansforetaksloven" isn't style-file defined
---line 179 of file main.bib
-Warning--entry type for "Snort2020_MunshawJ" isn't style-file defined
---line 187 of file main.bib
-Warning--entry type for "Wikipedia2022_Snort" isn't style-file defined
 --line 196 of file main.bib
-Warning--entry type for "Ciscco_Snort3_Configuration_Guide_v7" isn't style-file defined
---line 205 of file main.bib
-Warning--entry type for "TIG2020_Snort_101" isn't style-file defined
+Warning--entry type for "Lovdata2018_Sikkerhetsloven" isn't style-file defined
+--line 204 of file main.bib
+Warning--entry type for "Lovdata2016_finansforetaksloven" isn't style-file defined
 --line 212 of file main.bib
+Warning--entry type for "Snort2020_MunshawJ" isn't style-file defined
+--line 220 of file main.bib
+Warning--entry type for "Wikipedia2022_Snort" isn't style-file defined
+--line 229 of file main.bib
+Warning--entry type for "Ciscco_Snort3_Configuration_Guide_v7" isn't style-file defined
+--line 238 of file main.bib
+Warning--entry type for "TIG2020_Snort_101" isn't style-file defined
+--line 245 of file main.bib
 -- IEEEtran.bst version 1.12 (2007/01/11) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 Warning--empty journal in Tamer_et_al2008_Deep_Packet_Inspections
 Warning--empty journal in Courtland2017
 Warning--empty year in Courtland2017
+Warning--empty journal in 322221656
 
 Done.
-You've used 28 entries,
+You've used 31 entries,
             4024 wiz_defined-function locations,
-            970 strings with 12590 characters,
-and the built_in function-call counts, 11404 in all, are:
-= -- 872
-> -- 191
-< -- 15
-+ -- 93
-- -- 43
-* -- 488
-:= -- 2076
-add.period$ -- 57
-call.type$ -- 28
-change.case$ -- 27
-chr.to.int$ -- 27
-cite$ -- 31
-duplicate$ -- 938
-empty$ -- 1115
-format.name$ -- 51
-if$ -- 2445
+            984 strings with 13285 characters,
+and the built_in function-call counts, 13202 in all, are:
+= -- 1004
+> -- 244
+< -- 24
++ -- 121
+- -- 54
+* -- 572
+:= -- 2349
+add.period$ -- 63
+call.type$ -- 31
+change.case$ -- 30
+chr.to.int$ -- 48
+cite$ -- 35
+duplicate$ -- 1080
+empty$ -- 1276
+format.name$ -- 64
+if$ -- 2857
 int.to.chr$ -- 0
-int.to.str$ -- 28
-missing$ -- 202
-newline$ -- 151
-num.names$ -- 28
-pop$ -- 598
+int.to.str$ -- 31
+missing$ -- 229
+newline$ -- 160
+num.names$ -- 31
+pop$ -- 668
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 864
+skip$ -- 1001
 stack$ -- 0
-substring$ -- 88
-swap$ -- 553
-text.length$ -- 6
+substring$ -- 140
+swap$ -- 655
+text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 28
-warning$ -- 3
-while$ -- 30
-width$ -- 30
-write$ -- 290
-(There were 19 warnings)
+type$ -- 31
+warning$ -- 4
+while$ -- 36
+width$ -- 33
+write$ -- 315
+(There were 20 warnings)

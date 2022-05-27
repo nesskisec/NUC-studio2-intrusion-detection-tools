@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.5.7)  27 MAY 2022 08:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.5.7)  27 MAY 2022 19:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -880,12 +880,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--17
 ) [4] (./sections/summary.tex
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 3.
-
-
-Underfull \hbox (badness 1924) in paragraph at lines 5--6
-\OT1/ptm/m/n/10 on YouTube and Wikipedia are; Packet Snif-fer, Packet
- []
+(hyperref)                than one, level fixed on input line 5.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
@@ -902,7 +897,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--130
 
  []
 
-(./sections/conclusion.tex) [5] (./sections/citations.tex) (./main.bbl
+(./sections/conclusion.tex [5]
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+
+ []
+
+) (./sections/citations.tex) (./main.bbl
 Underfull \hbox (badness 6725) in paragraph at lines 42--46
 []\OT1/ptm/m/n/8 M. Chrisos, ``Top best in-tru-sion de-tec-tion
  []
@@ -927,7 +927,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 150--154
 \OT1/ptm/m/n/8 no / rettigheter-[]og-[]plikter / virksomhetenes-[]plikter / personvernombud /
  []
 
-
+[6]
 Underfull \hbox (badness 10000) in paragraph at lines 184--189
 []$\OT1/ptm/m/n/8 https : / / www . cisco . com / c / en / us / td / docs / security / ^^Lrepower / 70 / snort3 /
  []
@@ -937,7 +937,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 184--189
 \OT1/ptm/m/n/8 con^^Lg-[]guide / snort3-[]con^^Lguration-[]guide-[]v70 / getting-[]started-[]intrusion .
  []
 
-) [6]
+) [7]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -949,25 +949,23 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[7
-
-] (./main.aux)
+(./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 2A400EA8901860B3D79D145A3E5CAA5D;3368.
  ) 
 Here is how much of TeX's memory you used:
- 27210 strings out of 478238
- 500979 string characters out of 5850457
- 819641 words of memory out of 5000000
- 44878 multiletter control sequences out of 15000+600000
+ 27216 strings out of 478238
+ 501050 string characters out of 5850457
+ 823735 words of memory out of 5000000
+ 44881 multiletter control sequences out of 15000+600000
  505145 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,9n,92p,1607b,387s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 94i,9n,92p,1607b,522s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (7 pages, 193399 bytes).
+Output written on main.pdf (7 pages, 198454 bytes).
 PDF statistics:
- 264 PDF objects out of 1000 (max. 8388607)
- 239 compressed objects within 3 object streams
- 57 named destinations out of 1000 (max. 500000)
+ 270 PDF objects out of 1000 (max. 8388607)
+ 245 compressed objects within 3 object streams
+ 60 named destinations out of 1000 (max. 500000)
  162 words of extra memory for PDF output out of 10000 (max. 10000000)
 
