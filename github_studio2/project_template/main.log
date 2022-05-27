@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.5.7)  26 MAY 2022 00:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.5.7)  27 MAY 2022 08:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -757,198 +757,187 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count363
- (./sections/abstract.tex) (./sections/introduction.tex
-LaTeX Font Info:    Trying to load font information for U+msa on input line 12.
- (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 12.
- (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+ (./sections/abstract.tex
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+) (./sections/introduction.tex
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+
+ []
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]) (./sections/topic/topic.tex (./sections/topic/subtopic1.tex (./sections/topic/a-kim.tex
-Underfull \hbox (badness 3302) in paragraph at lines 4--5
-\OT1/ptm/m/n/10 De-tec-tion, Ac-tive Re-sponse, Com-pli-ance Au-dit-ing, File
+Underfull \hbox (badness 2277) in paragraph at lines 3--4
+\OT1/ptm/m/n/10 De-te-cion(LIDs), Rootkit and Mal-ware De-tec-tion, Ac-tive
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 8--2
+Underfull \hbox (badness 10000) in paragraph at lines 9--2
 
  []
 
-(./sections/topic/a-dale.tex [2]
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
-[]\OT1/ptm/m/n/10 Gathering con-cret im-ple-men-ta-tion ex-am-ple where
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
+(./sections/topic/a-dale.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--9
 
  []
 
-) (./sections/topic/a-muhammad.tex
-Underfull \hbox (badness 1502) in paragraph at lines 3--6
+)
+Underfull \hbox (badness 10000) in paragraph at lines 10--4
+
+ []
+
+(./sections/topic/a-muhammad.tex
+Underfull \hbox (badness 1502) in paragraph at lines 3--5
 \OT1/ptm/m/n/10 ses-sions, de-tect-ing mal-ware by in-ter-act-ing with ex-ter-nal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--6
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
+
+ []
+
+[2]
+Underfull \hbox (badness 1755) in paragraph at lines 8--11
+\OT1/ptm/m/n/10 to un-cov-er-ing harm-ful ac-tiv-i-ties. Anomaly iden-ti-fi-ca-tion,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--11
+
+ []
+
+<images/zeek_architecture.png, id=114, 803.0pt x 602.25pt>
+File: images/zeek_architecture.png Graphic file (type png)
+<use images/zeek_architecture.png>
+Package pdftex.def Info: images/zeek_architecture.png  used on input line 16.
+(pdftex.def)             Requested size: 258.0pt x 193.50505pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 16--17
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--20
 
  []
 
 
-Underfull \hbox (badness 4072) in paragraph at lines 13--15
-\OT1/ptm/m/n/10 in-ter-face is be-ing mon-i-tored, Zeek will cre-ate a
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--15
+Underfull \hbox (badness 10000) in paragraph at lines 26--31
 
  []
 
 
-Underfull \hbox (badness 1845) in paragraph at lines 20--22
-[]\OT1/ptm/m/n/10 ZeeK/Bro's deep packet in-spec-tion con-sumes a lot
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--22
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
 
+LaTeX Font Info:    Trying to load font information for U+msa on input line 35.
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 35.
+ (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
-Underfull \hbox (badness 6300) in paragraph at lines 26--28
- \OT1/ptm/m/it/10 3) IBM QRADAR: [][][] \OT1/ptm/m/n/10 IBM has de-vel-oped QRadar, a
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--28
-\OT1/ptm/m/n/10 tool for han-dling se-cu-rity is-sues [3]. Ad-di-tion-ally,
- []
-
-
-Underfull \hbox (badness 5245) in paragraph at lines 26--28
-\OT1/ptm/m/n/10 it can anal-yse data from a wide range of sources
- []
-
-
-Underfull \hbox (badness 4391) in paragraph at lines 26--28
-\OT1/ptm/m/n/10 (router/-fire-wal-l/ap-pli-ca-tion/-folder) and store and man-age
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--28
+))) [3 <./images/zeek_architecture.png>] (./sections/ethical_issues.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--39
-[]\OT1/ptm/m/n/10 Security in-tel-li-gence so-lu-tions may be pro-vided
- []
-
-
-Underfull \hbox (badness 1661) in paragraph at lines 37--39
-\OT1/ptm/m/n/10 cost-effectively by man-aged ser-vice providers us-ing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 37--39
-
- []
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 43--45
-
- []
-
-)) (./sections/topic/subtopic2.tex (./sections/topic/b-kim.tex) (./sections/topic/b-dale.tex) (./sections/topic/b-muhammad.tex)) (./sections/topic/subtopic3.tex
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
-[]|   []   |   []   |   []   |   []   |   []   |   []   |   []
- []
-
-(./sections/topic/c-kim.tex) (./sections/topic/c-dale.tex) (./sections/topic/c-muhammad.tex))) (./sections/ethical_issues.tex
-Underfull \hbox (badness 10000) in paragraph at lines 1--12
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
 
-Underfull \hbox (badness 4819) in paragraph at lines 1--12
-\OT1/ptm/m/n/10 A con-sid-er-able com-pli-ca-tion con-cern-ing the uti-liza-tion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1--12
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1--12
-
+Underfull \hbox (badness 1831) in paragraph at lines 14--17
+\OT1/ptm/m/n/10 ethics are for-mal-ized and ap-plied in the "real world".
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1--12
+Underfull \hbox (badness 10000) in paragraph at lines 14--17
 
  []
 
+) [4] (./sections/summary.tex
 
-Underfull \hbox (badness 10000) in paragraph at lines 1--12
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 3.
 
+
+Underfull \hbox (badness 1924) in paragraph at lines 5--6
+\OT1/ptm/m/n/10 on YouTube and Wikipedia are; Packet Snif-fer, Packet
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1--12
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 34--36
-
+)
+Underfull \hbox (badness 1924) in paragraph at lines 15--130
+\OT1/ptm/m/n/10 "Hands-On Ar-ti-fi-cial In-tel-li-gence for Cy-ber-Se-cu-rity" [[]8[]]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
+Underfull \hbox (badness 10000) in paragraph at lines 15--130
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
-\OT1/ptm/m/n/10 pdfer-skjema-ol/regelverk/veiledere/dpia-
+(./sections/conclusion.tex) [5] (./sections/citations.tex) (./main.bbl
+Underfull \hbox (badness 6725) in paragraph at lines 42--46
+[]\OT1/ptm/m/n/8 M. Chrisos, ``Top best in-tru-sion de-tec-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
-
- []
-
-) (./sections/summary.tex) (./sections/conclusion.tex) [5] (./sections/citations.tex) (./main.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 45--50
-[]$\OT1/ptm/m/n/8 https : / / www . cisco . com / c / en / us / td / docs / security / ^^Lrepower / 70 / snort3 /
+Underfull \hbox (badness 4647) in paragraph at lines 42--46
+\OT1/ptm/m/n/8 sys-tems for busi-ness,'' 2022. [On-line]. Avail-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--50
-\OT1/ptm/m/n/8 con^^Lg-[]guide / snort3-[]con^^Lguration-[]guide-[]v70 / getting-[]started-[]intrusion .
+Underfull \hbox (badness 10000) in paragraph at lines 42--46
+\OT1/ptm/m/n/8 able: []$https : / / www . techfunnel . com / information-[]technology /
  []
 
 
-Underfull \hbox (badness 2469) in paragraph at lines 97--101
+Underfull \hbox (badness 2469) in paragraph at lines 150--154
 []\OT1/ptm/m/n/8 Datatilsynet, ``Hvem m[]a ha per-son-ver-nom-bud? |
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--101
+Underfull \hbox (badness 10000) in paragraph at lines 150--154
 \OT1/ptm/m/n/8 no / rettigheter-[]og-[]plikter / virksomhetenes-[]plikter / personvernombud /
  []
 
-) (./sections/illustrations.tex) [6]
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--189
+[]$\OT1/ptm/m/n/8 https : / / www . cisco . com / c / en / us / td / docs / security / ^^Lrepower / 70 / snort3 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--189
+\OT1/ptm/m/n/8 con^^Lg-[]guide / snort3-[]con^^Lguration-[]guide-[]v70 / getting-[]started-[]intrusion .
+ []
+
+) [6]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -960,23 +949,25 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-(./main.aux)
+[7
+
+] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 12B4DF9B850A1FF58DC8E6EF6A87CD32;4651.
+(rerunfilecheck)             Checksum: 2A400EA8901860B3D79D145A3E5CAA5D;3368.
  ) 
 Here is how much of TeX's memory you used:
- 27228 strings out of 478238
- 501695 string characters out of 5850457
- 810064 words of memory out of 5000000
- 44882 multiletter control sequences out of 15000+600000
+ 27210 strings out of 478238
+ 500979 string characters out of 5850457
+ 819641 words of memory out of 5000000
+ 44878 multiletter control sequences out of 15000+600000
  505145 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,9n,92p,1599b,460s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 94i,9n,92p,1607b,387s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (6 pages, 103219 bytes).
+Output written on main.pdf (7 pages, 193399 bytes).
 PDF statistics:
- 223 PDF objects out of 1000 (max. 8388607)
- 202 compressed objects within 3 object streams
- 47 named destinations out of 1000 (max. 500000)
- 189 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 264 PDF objects out of 1000 (max. 8388607)
+ 239 compressed objects within 3 object streams
+ 57 named destinations out of 1000 (max. 500000)
+ 162 words of extra memory for PDF output out of 10000 (max. 10000000)
 

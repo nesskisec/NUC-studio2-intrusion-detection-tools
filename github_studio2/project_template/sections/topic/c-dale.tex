@@ -1,5 +1,53 @@
-\subsection{Snort, An Introduction}
+\subsection{Snort - Detecting Malware and Ransomeware}
 
-As of 2022, there are 2 major versions of Snort installation base. Namely Snort 2.X and Snort 3.
+It has to be stated that AI and Machine Learning within theproblem domain of intrusion detection continuous to be regarded an experimental\cite{Parisi2019} endeavour at this point in time. In that there seem to be no established superior method, algorithm or process to automatically calibrate detection rules and algorithm to be used in IDS and IPS.
 
-There are 3 key, and perhaps the most noticable, differences between Snort 2 and Snort 3. It has to do with performance optimization, detection rules and software distribution. With regards to performance, Snort 3 code base has been refactored and optimized and it also now support multi-threading. Enabling Snort 3 to perform packet analysis multi-threaded. Snort 3 has also improved Rules syntax and parsing using LUA programming language \cite{}.
+However, studies has indeed prooven that a Machine/Deep Learning is a viable solution. And that Machine and Deep Learning methodologies can indeed be used with Snort packet captures for analysis, albeit not in real-time. A real-time solution will require both high bandwith network, high capacity storage and high compute capability.
+
+Snort, together with other Open Source Software can be utilized to automate the capture, detection and alert functionlities in near real time. A HIDS/HIPS solution can be implemented with Snort, OSSIM, a few Python Libraries and some custom scripts. A similar NIDS/NIPS is possible provided network, storage and compute requirements are met.
+
+\subsection{Snort - HIDS Setup Overview}
+
+Lets establish a scenario where we want to address the issue of general intrusion and more specifically malware and ransomware. In this scenario we want to alert malicious network intrusion. At the same time detect malware prevent file extraction from a specific on-site file server.
+
+One simple way to achive this objective is to implement Snort as an inline NIDS/NIPS inside the SMB network, right behind a firewall. A decicated AT\&T OSSIM server as SIEM alert and monitoring dashboard. And a dedicated server to run malware analysis on automated with Python scripts and libraries.
+
+The Snort NIDS/NIPS can be configured to perform packet logging regularly with specific interval. This is necessary to capture data that can be used for malware analysis. A static analysis, automated with Python scripts utilizing OpenSource libraries for Machine and Deep Learning, read Windows Protable Executables (PE) etc.
+
+There are different methods to apply Machine Learning to perform malware analysis as described in Alessandro Parisi's "Hands-On Artificial Intelligence for Cybersecurity"\cite{Parisi2019} while A YouTube video by Motasem Hamdan describes basic installation of Snort\cite{YouTube2022_HamdanM}
+
+
+
+
+Malware Analysis objectives:
+
+- Distinguish malicious binary files from legitimate files.
+- Automate the preparatory phase of malware analysis; triage.
+- The analyst must understand the logic by which the Machine Learning, and Deep Learning tools apply; for finetuning, knowing what method or algorithm to address relevant to the task at hand. Properly assess the results and how to adapt.
+
+What characterizes an efficient Malware detection software:
+
+- A quick and successful preliminary screening of possible malicious binary.
+- An analyst that can quickly verify and alert about the malicious binary.
+- Adaptive to new threats and their contextual changes
+
+What can be malicious files:
+
+- All files, even non-executable files such as a .PDF, .TXT, .JPG etc. (Hands-On Artifical Intelligence for CyberSecurity, Parisi A, 2019, p 112)
+
+Modes of malware analysis:
+
+- Static analysis
+- Dynamic analysis
+
+
+What are malwares:
+
+- Trojans
+- Botnets
+- Downloaders
+- Rootkits
+- Ransomware
+- APT
+- Zero Days
+

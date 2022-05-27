@@ -27,6 +27,28 @@ Norsis, ``Norsis trusler trender 2021 digital,'' 2021. [Online]. Available:
   \url{https://norsis.no//wp-content/uploads/2021/03/NorSIS_Trusler_Trender_2021_Digital.pdf}
 \BIBentrySTDinterwordspacing
 
+\bibitem{SANS2011_RobertsonC}
+\BIBentryALTinterwordspacing
+C.~Robertson, ``Practical ossec,'' 7 2011. [Online]. Available:
+  \url{https://sansorg.egnyte.com/dl/xuh7dAtqWw}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Reznik2021-mz}
+L.~Reznik, \emph{Intelligent security systems}.\hskip 1em plus 0.5em minus
+  0.4em\relax Standards Information Network, Sep. 2021.
+
+\bibitem{Techfunnel}
+\BIBentryALTinterwordspacing
+M.~Chrisos, ``Top best intrusion detection systems for business,'' 2022.
+  [Online]. Available:
+  \url{https://www.techfunnel.com/information-technology/top-best-intrusion-detection-systems-for-business}
+\BIBentrySTDinterwordspacing
+
+\bibitem{ozkan2021comprehensive}
+M.~Ozkan-Okay, R.~Samet, {\"O}.~Aslan, and D.~Gupta, ``A comprehensive
+  systematic literature review on intrusion detection systems,'' \emph{IEEE
+  Access}, 2021.
+
 \bibitem{Snort2020_MunshawJ}
 \BIBentryALTinterwordspacing
 J.~Munshaw, ``Snort blog: The major differences that set snort 3 apart from
@@ -34,29 +56,60 @@ J.~Munshaw, ``Snort blog: The major differences that set snort 3 apart from
   \url{https://blog.snort.org/2020/08/snort-3-2-differences.html}
 \BIBentrySTDinterwordspacing
 
-\bibitem{Wikipedia2022_Snort}
-\BIBentryALTinterwordspacing
-Wikipedia, ``Snort (software) - wikipedia,'' 4 2022. [Online]. Available:
-  \url{https://en.wikipedia.org/wiki/Snort_(software)}
-\BIBentrySTDinterwordspacing
-
-\bibitem{Ciscco_Snort3_Configuration_Guide_v7}
-\BIBentryALTinterwordspacing
-Cisco, ``Firepower management center snort 3 configuration guide, version 7.0 -
-  getting started with snort 3 intrusion policies [cisco firepower management
-  center] - cisco.'' [Online]. Available:
-  \url{https://www.cisco.com/c/en/us/td/docs/security/firepower/70/snort3/config-guide/snort3-configuration-guide-v70/getting-started-intrusion.html}
-\BIBentrySTDinterwordspacing
-
-\bibitem{TIG2020_Snort_101}
-\BIBentryALTinterwordspacing
-C.~T.~I. Group, ``(1207) snort 101 - youtube,'' 2 2020. [Online]. Available:
-  \url{https://www.youtube.com/watch?v=W1pb9DFCXLw}
-\BIBentrySTDinterwordspacing
-
 \bibitem{Tamer_et_al2008_Deep_Packet_Inspections}
 T.~Abuhmed, D.~Mohaisen, and D.~Nyang, ``A survey on deep packet inspection for
   intrusion detection systems,'' 03 2008.
+
+\bibitem{Parisi2019}
+\BIBentryALTinterwordspacing
+A.~Parisi, \emph{Hands-on artificial intelligence for cybersecurity : implement
+  smart AI systems for preventing cyber attacks and detecting threats and
+  network anomalies}.\hskip 1em plus 0.5em minus 0.4em\relax Packt, 2019.
+  [Online]. Available: \url{https://ereader.perlego.com/1/book/1031674/3}
+\BIBentrySTDinterwordspacing
+
+\bibitem{strand_2022}
+\BIBentryALTinterwordspacing
+J.~Strand, ``Detecting malware beacons with zeek and rita - black hills
+  information security,'' 2022. [Online]. Available:
+  \url{https://www.blackhillsinfosec.com/detecting-malware-beacons-with-zeek-and-rita/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{electronics11050679}
+\BIBentryALTinterwordspacing
+A.~Ferriyan, A.~H. Thamrin, K.~Takeda, and J.~Murai, ``Encrypted malicious
+  traffic detection based on word2vec,'' \emph{Electronics}, vol.~11, no.~5,
+  2022. [Online]. Available: \url{https://www.mdpi.com/2079-9292/11/5/679}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Zeek2019}
+\BIBentryALTinterwordspacing
+``Zeek offical landing page,'' 2019. [Online]. Available:
+  \url{https://docs.zeek.org/en/v3.0.14/_images/architecture.png}
+\BIBentrySTDinterwordspacing
+
+\bibitem{SHIMEALL2014253}
+\BIBentryALTinterwordspacing
+T.~J. Shimeall and J.~M. Spring, \emph{Chapter 12 - Recognition Strategies:
+  Intrusion Detection and Prevention}, T.~J. Shimeall and J.~M. Spring,
+  Eds.\hskip 1em plus 0.5em minus 0.4em\relax Boston: Syngress, 2014. [Online].
+  Available:
+  \url{https://www.sciencedirect.com/science/article/pii/B9781597499699000122}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Bhosale2015}
+\BIBentryALTinterwordspacing
+D.~A. Bhosale and V.~M. Mane, ``Comparative study and analysis of network
+  intrusion detection tools,'' in \emph{2015 International Conference on
+  Applied and Theoretical Computing and Communication Technology
+  ({iCATccT})}.\hskip 1em plus 0.5em minus 0.4em\relax {IEEE}, Oct. 2015.
+  [Online]. Available: \url{https://doi.org/10.1109/icatcct.2015.7456901}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Haas2020ZeekOsqueryHC}
+S.~Haas, R.~Sommer, and M.~Fischer, ``Zeek-osquery: Host-network correlation
+  for advanced monitoring and intrusion detection,'' \emph{ICT Systems Security
+  and Privacy Protection}, vol. 580, pp. 248 -- 262, 2020.
 
 \bibitem{Enforcementtracker.com}
 ``Gdpr enforcement tracker - list of gdpr fines,'' Available at \url{
@@ -118,6 +171,33 @@ Lovdata, ``Forskrift om elektronisk kommunikasjonsnett og elektronisk
 ------, ``Lov om nasjonal sikkerhet (sikkerhetsloven) - lovdata,'' 2018.
   [Online]. Available:
   \url{https://lovdata.no/dokument/NL/lov/2018-06-01-24?q=sikkerhetsloven}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Wikipedia2022_Snort}
+\BIBentryALTinterwordspacing
+Wikipedia, ``Snort (software) - wikipedia,'' 4 2022. [Online]. Available:
+  \url{https://en.wikipedia.org/wiki/Snort_(software)}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Ciscco_Snort3_Configuration_Guide_v7}
+\BIBentryALTinterwordspacing
+Cisco, ``Firepower management center snort 3 configuration guide, version 7.0 -
+  getting started with snort 3 intrusion policies [cisco firepower management
+  center] - cisco.'' [Online]. Available:
+  \url{https://www.cisco.com/c/en/us/td/docs/security/firepower/70/snort3/config-guide/snort3-configuration-guide-v70/getting-started-intrusion.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{TIG2020_Snort_101}
+\BIBentryALTinterwordspacing
+C.~T.~I. Group, ``(1207) snort 101 - youtube,'' 2 2020. [Online]. Available:
+  \url{https://www.youtube.com/watch?v=W1pb9DFCXLw}
+\BIBentrySTDinterwordspacing
+
+\bibitem{YouTube2022_HamdanM}
+\BIBentryALTinterwordspacing
+M.~Hamdan, ``(1216) snort ids / ips complete practical guide | tryhackme -
+  youtube,'' 3 2022. [Online]. Available:
+  \url{https://www.youtube.com/watch?v=pvPdOO2VcwM&t=870s}
 \BIBentrySTDinterwordspacing
 
 \end{thebibliography}

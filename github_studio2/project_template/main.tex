@@ -108,7 +108,7 @@ kim.naess@stud.noroff.no, dale.bada@stud.noroff.no, muhammad.iqbal@stud.noroff.n
 
 \begin{IEEEkeywords}
 
-Intrusion Detection Tools, Small Business, Machine Learning, IDS, 
+Intrusion Detection Tools (IDS), Small Business, Malware, Ransomware, Machine Learning
 
 \end{IEEEkeywords}
 
@@ -118,8 +118,12 @@ Intrusion Detection Tools, Small Business, Machine Learning, IDS,
 \section{Reviewing IDS Systems for Small and Midsized Businesses}
 \input{sections/topic/topic}
 
+\newpage
+
 \section{Ethical Issues}
 \input{sections/ethical_issues}
+
+\newpage
 
 \section{Summary}
 \input{sections/summary}
@@ -137,11 +141,28 @@ Intrusion Detection Tools, Small Business, Machine Learning, IDS,
 
 \newpage
 
-\section*{Appendix B:\\Illustrations}
-\input{sections/illustrations}
+\section*{Appendix B:}
+
+\subsection{Zeek Pros and Cons} \label{prosncons}
+
+{\bfseries{Pros:}}
+
+\begin{itemize}
+    \item Zeek is a traffic analysis tool that is completely flexible and expandable. To express any analytic job, Zeek offers a domain-specific, Turing-complete scripting language.
+    \item A low-cost alternative to pricey proprietary technologies, Zeek operates on commodity hardware. Zeek is a network monitoring tool that goes well beyond the capabilities of most other tools, which are often confined to a narrow collection of pre-programmed analytic activities.
+    \item As a platform for gathering and analysing network data, Zeek is best suited to the task at hand.
+    \item The transaction data provided by Zeek is the company's biggest selling point. This means that if a network interface is being monitored, Zeek will create a collection of high-fidelity, highly annotated transaction logs by default. In a judgment-free, policy-neutral way, these logs explain the protocols and activities on the network.
+
+\end{itemize}
+
+{\bfseries{Cons:}}
+
+\begin{itemize}
+    \item ZeeK/Bro's deep packet inspection consumes a lot of resources, which is a drawback if you're looking for flexibility. In terms of threat intelligence, Snort and Suricata are the two most popular options. The community is continuously attempting to make Bro more user-friendly because of this.
+\end{itemize}
 
 \newpage
-
+\newpage
 
 %%% DO NOT  modify below.
 \newcommand{\noroffcount}[1]{%
