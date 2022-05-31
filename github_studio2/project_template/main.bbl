@@ -173,33 +173,6 @@ Lovdata, ``Forskrift om elektronisk kommunikasjonsnett og elektronisk
   \url{https://lovdata.no/dokument/NL/lov/2018-06-01-24?q=sikkerhetsloven}
 \BIBentrySTDinterwordspacing
 
-\bibitem{Wikipedia2022_Snort}
-\BIBentryALTinterwordspacing
-Wikipedia, ``Snort (software) - wikipedia,'' 4 2022. [Online]. Available:
-  \url{https://en.wikipedia.org/wiki/Snort_(software)}
-\BIBentrySTDinterwordspacing
-
-\bibitem{Ciscco_Snort3_Configuration_Guide_v7}
-\BIBentryALTinterwordspacing
-Cisco, ``Firepower management center snort 3 configuration guide, version 7.0 -
-  getting started with snort 3 intrusion policies [cisco firepower management
-  center] - cisco.'' [Online]. Available:
-  \url{https://www.cisco.com/c/en/us/td/docs/security/firepower/70/snort3/config-guide/snort3-configuration-guide-v70/getting-started-intrusion.html}
-\BIBentrySTDinterwordspacing
-
-\bibitem{TIG2020_Snort_101}
-\BIBentryALTinterwordspacing
-C.~T.~I. Group, ``(1207) snort 101 - youtube,'' 2 2020. [Online]. Available:
-  \url{https://www.youtube.com/watch?v=W1pb9DFCXLw}
-\BIBentrySTDinterwordspacing
-
-\bibitem{YouTube2022_HamdanM}
-\BIBentryALTinterwordspacing
-M.~Hamdan, ``(1216) snort ids / ips complete practical guide | tryhackme -
-  youtube,'' 3 2022. [Online]. Available:
-  \url{https://www.youtube.com/watch?v=pvPdOO2VcwM&t=870s}
-\BIBentrySTDinterwordspacing
-
 \bibitem{322221656}
 A.~F. Agarap, ``Towards building an intelligent anti-malware system: A deep
   learning approach using support vector machine (svm) for malware
@@ -210,11 +183,5 @@ F.~Mokbal, W.~Dan, M.~Osman, Y.~Ping, and S.~Alsamhi, ``An efficient intrusion
   detection framework based on embedding feature selection and ensemble
   learning technique,'' \emph{The International Arab Journal of Information
   Technology}, vol.~19, 5 2022.
-
-\bibitem{8674233}
-B.~M. Khammas, S.~Hasan, R.~A. Ahmed, J.~S. Bassi, and I.~Ismail, ``Accuracy
-  improved malware detection method using snort sub-signatures and machine
-  learning techniques,'' in \emph{2018 10th Computer Science and Electronic
-  Engineering (CEEC)}, 2018, pp. 107--112.
 
 \end{thebibliography}

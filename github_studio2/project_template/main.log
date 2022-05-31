@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.5.7)  27 MAY 2022 19:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.5.7)  27 MAY 2022 23:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -763,7 +763,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
  []
 
 ) (./sections/introduction.tex
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
@@ -786,16 +786,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--2
  []
 
 (./sections/topic/a-dale.tex
-Underfull \hbox (badness 10000) in paragraph at lines 6--9
+Underfull \hbox (badness 1803) in paragraph at lines 4--5
+\OT1/ptm/m/n/10 Log-ger and Net-work In-tru-sion De-tec-tion Sys-tem mode.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-)
-Underfull \hbox (badness 10000) in paragraph at lines 10--4
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--11
 
  []
 
-(./sections/topic/a-muhammad.tex
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+
+ []
+
+[2]) (./sections/topic/a-muhammad.tex
 Underfull \hbox (badness 1502) in paragraph at lines 3--5
 \OT1/ptm/m/n/10 ses-sions, de-tect-ing mal-ware by in-ter-act-ing with ex-ter-nal
  []
@@ -805,7 +815,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
 
-[2]
+
 Underfull \hbox (badness 1755) in paragraph at lines 8--11
 \OT1/ptm/m/n/10 to un-cov-er-ing harm-ful ac-tiv-i-ties. Anomaly iden-ti-fi-ca-tion,
  []
@@ -815,7 +825,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--11
 
  []
 
-<images/zeek_architecture.png, id=114, 803.0pt x 602.25pt>
+<images/zeek_architecture.png, id=108, 803.0pt x 602.25pt>
 File: images/zeek_architecture.png Graphic file (type png)
 <use images/zeek_architecture.png>
 Package pdftex.def Info: images/zeek_architecture.png  used on input line 16.
@@ -829,6 +839,9 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 16--17
 Underfull \hbox (badness 10000) in paragraph at lines 12--20
 
  []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 26--31
@@ -877,32 +890,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--17
 
  []
 
-) [4] (./sections/summary.tex
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 5.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
-
- []
-
-)
-Underfull \hbox (badness 1924) in paragraph at lines 15--130
-\OT1/ptm/m/n/10 "Hands-On Ar-ti-fi-cial In-tel-li-gence for Cy-ber-Se-cu-rity" [[]8[]]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--130
-
- []
-
-(./sections/conclusion.tex [5]
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
-
- []
-
-) (./sections/citations.tex) (./main.bbl
+) [4] (./sections/summary.tex) (./sections/conclusion.tex) [5] (./sections/citations.tex) (./main.bbl
 Underfull \hbox (badness 6725) in paragraph at lines 42--46
 []\OT1/ptm/m/n/8 M. Chrisos, ``Top best in-tru-sion de-tec-tion
  []
@@ -927,17 +915,207 @@ Underfull \hbox (badness 10000) in paragraph at lines 150--154
 \OT1/ptm/m/n/8 no / rettigheter-[]og-[]plikter / virksomhetenes-[]plikter / personvernombud /
  []
 
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 184--189
-[]$\OT1/ptm/m/n/8 https : / / www . cisco . com / c / en / us / td / docs / security / ^^Lrepower / 70 / snort3 /
+) [6]
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
+[]\OT1/ptm/m/n/8 Supported,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--189
-\OT1/ptm/m/n/8 con^^Lg-[]guide / snort3-[]con^^Lguration-[]guide-[]v70 / getting-[]started-[]intrusion .
+Underfull \hbox (badness 1584) in paragraph at lines 160--160
+[]\OT1/ptm/m/n/8 Packet log-
  []
 
-) [7]
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
+[]\OT1/ptm/m/n/8 Signature
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+[]\OT1/ptm/m/n/8 Anomaly
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--164
+[]\OT1/ptm/m/n/8 Malware
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+[]\OT1/ptm/m/n/8 Other
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+[]\OT1/ptm/m/n/8 Misuse
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+\OT1/ptm/m/n/8 de-tec-tion,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+\OT1/ptm/m/n/8 be-hav-ioral
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+[]\OT1/ptm/m/n/8 Rootkit
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+\OT1/ptm/m/n/8 and tro-jan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+[]\OT1/ptm/m/n/8 PCAP
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+\OT1/ptm/m/n/8 anal-y-sis,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+\OT1/ptm/m/n/8 Multi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+\OT1/ptm/m/n/8 Threaded,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+\OT1/ptm/m/n/8 Ap-pli-ca-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+\OT1/ptm/m/n/8 Layer
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+[]\OT1/ptm/m/n/8 Malware
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+\OT1/ptm/m/n/8 Pre-poces-sor
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+[]\OT1/ptm/m/n/8 OS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+\OT1/ptm/m/n/8 Plat-form
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+[]\OT1/ptm/m/n/8 OSX,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+\OT1/ptm/m/n/8 Linux,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+[]\OT1/ptm/m/n/8 OSX,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+\OT1/ptm/m/n/8 Linux,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+[]\OT1/ptm/m/n/8 OSX,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+\OT1/ptm/m/n/8 Linux,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+[]\OT1/ptm/m/n/8 ARM,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+\OT1/ptm/m/n/8 OSX,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+\OT1/ptm/m/n/8 Linux,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+\OT1/ptm/m/n/8 Win-dows,
+ []
+
+
+Underfull \hbox (badness 1997) in paragraph at lines 166--166
+\OT1/ptm/m/n/8 Cisco IOS-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+[]\OT1/ptm/m/n/8 ARM,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+\OT1/ptm/m/n/8 In-tel X86,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--168
+[]\OT1/ptm/m/n/8 OpenSource
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+[]\OT1/ptm/m/n/8 Business,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+\OT1/ptm/m/n/8 En-ter-prise
+ []
+
+
+Overfull \hbox (7.1684pt too wide) in paragraph at lines 150--171
+ [][] 
+ []
+
+
+Underfull \hbox (badness 4072) in paragraph at lines 183--184
+\OT1/ptm/m/n/10 in-ter-face is be-ing mon-i-tored, Zeek will cre-ate a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
+
+ []
+
+[7]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -951,21 +1129,21 @@ Before submitting the final camera ready copy, remember to:
 
 (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2A400EA8901860B3D79D145A3E5CAA5D;3368.
+(rerunfilecheck)             Checksum: B2594FDA0AE83CD877E7733D6E3463A6;3048.
  ) 
 Here is how much of TeX's memory you used:
- 27216 strings out of 478238
- 501050 string characters out of 5850457
- 823735 words of memory out of 5000000
- 44881 multiletter control sequences out of 15000+600000
+ 27208 strings out of 478238
+ 500839 string characters out of 5850457
+ 818562 words of memory out of 5000000
+ 44878 multiletter control sequences out of 15000+600000
  505145 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,9n,92p,1607b,522s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 94i,10n,92p,1680b,387s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (7 pages, 198454 bytes).
+Output written on main.pdf (7 pages, 195554 bytes).
 PDF statistics:
- 270 PDF objects out of 1000 (max. 8388607)
- 245 compressed objects within 3 object streams
- 60 named destinations out of 1000 (max. 500000)
- 162 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 250 PDF objects out of 1000 (max. 8388607)
+ 225 compressed objects within 3 object streams
+ 55 named destinations out of 1000 (max. 500000)
+ 154 words of extra memory for PDF output out of 10000 (max. 10000000)
 

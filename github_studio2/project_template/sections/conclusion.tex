@@ -1,52 +1,7 @@
-Security best-practice rely on a holistic and layered approach...
 
-The primary objective of this state-of-the-art paper is versy specific. Namely to review a stand-alone IDS solution where its main goal is to detect malware. A solution that is vaible for a SMB to implement. In that it is relatively low cost to acquire, implement and maintain. This narrow focus towards a "stand-alone" solution, akin to Anti Virus software offerings, turned out to be amiss and had to be abandoned. As initial enquiry immediately revealed that IDS functionality comes as part of a security solution, offering both IDS and IPS. Furthermore IDS/IPS is merely a result of a larger process within defensive security. Detecting malware is and active threat-hunting activity. A process that requires packet logs, aka packet capture data, to be analysed either manually or (partly)automated. The result of such and activity must then feed into a system that can alert or trigger an event to occur within the business. As such, the whole solution or process, when fully integrated, is for all intents and purposes, a Security Information and Event Management platform (SIEM).
+All reviewed software offers a feature which is significant to detect malware and ransomware. Namely packet logging, or packet capture. There are many ways this can be done. Either by having NIDS inline, as a HIDS connected to a port in a switch in promiscuous mode etc. There are also many variations over how the detection, threat hunting, is performed in practice. The common theme is that Static Analysis is performed on captured packet data, or binary extracted from packet data. OSSEC, Snort or Zeek can be all be used as packet logger. It is with the captured packet data threat hunting is performed on. This can be performed using different Machine/Deep Learning algorithms and methodologies. One deep learning approach used labelled data set of malware, which has been transformed to a 32X32 image matrix data. By applying a Support Vector Machine (SVM) algorithm, the method has successfully classified the training data set with up to 84.92\%\cite{322221656}. More recent experiment managed to increase machine learning aided detection approach up to 99.9\% accuracy\cite{358776502}. The improvement has been achieved using a combination of machine learning algorithm, an ensemble learning approach. Along with a properly prepared training data set to minimize noise, over and underfitting, combining classes to minimise imbalanced data set etc.
 
-All reviewed software offers a feature which is significant to detect malware and ransomware. Namely packet logging, or packet capture. There are many ways this can be done. Either by having NIDS inline, as a HIDS connected to a port in a switch in promiscuous mode etc. There are also many variations over how the dectection, threat hunting, is performed in practice. The common theme is that Static Analysis is performed on captured packet data, or binary extracted from packet data. OSSEC, Snort or Zeek can be all be used as packet logger. It is with the captured packet data threat hunting is perfromed on. Which can be performed using different Machine/Deep Learning algorithms and methodologies. One deep learning approach used labelled dataset of malware, which has been transformed to a 32X32 image matrix data. By applying a Support Vectore Maching (SVM) algorithm, the method has successfully classified the training dataset with up to 84.92\% \cite{322221656}. More recent experiment managed to increase machine learning aided detection approach up to 99.9\% accuracy \cite{358776502}. The improvement has been achieved using a combination of machine learning algorithm, an ensemle learning approach. Along with a properly prepared training dataset to minize noise, over and underfitting, combining classes to minize imbalanced dataset etc.
+Acquiring the software required to implement a defensive security solution, IDS, IPS, SIEM etc., is not necessarily a huge investment. As there are many Open-Source software which are near equivalent with proprietary or payed solutions. The software reviewed were Open-Source, while Snort has both Open-Source and commercial version. They all offer similar technical specs, features and functionalities. Snort has the advantage of full vendor support of Cisco Systems. A large Fortune500 company, and a leading network security vendor, provides Snort the trust and confidence in troves.The basic Snort installation provides a basic rule set. A version of the rule set is publicly available for free, as provided and maintained by the researchers from Cisco Talos Intelligence Group, whom are the official content creators for Snort. Cisco Systems, together with a large and engaged Open Source community, provides a freely available viable version of the product for non-enterprise or SMB users. Where large investments can be required is with eventual dedicated hardware, network devices, servers or sensors. Security is also a knowledge based, labor intensive undertaking. In-house resource, external vendor support or outsourced service agreement will have recurring cost. Designing a network that lends to maintainability, security monitoring etc. requires a competent network architect. Not to mention the fact that the monitoring server, network sensors, log servers etc. must be secured as well.
 
-Acquiring the software required to implement a defensive security solution, IDS, IPS, SIEM etc., is not necessarily a huge investment. As there are many OpenSource software which are near equivalent with proprietary or payed solutions. The software reviewed that has both OpenSource and commercial versions to offer similar technical specs, features and functionalities. Snort has for instance the full vendor support of Cisco Systems. A large Fortune500 company, and a leading network security vendor, provides Snort the trust and confidence in troves.The basic Snort installation provides a basic rule set. A version of the rule set is publicly available for free as provided and maintained by the researchers from Cisco Talos Intelligence Group, whom are the official content creators for Snort. Cisco Systems, together with a large and engaged Open Source community, provides a freely available vailable version of the product for non-enterprise or SMB users. Where large investments can be required is with eventual dedicated hardware, network devices, servers or sensors. Security is also a knowldege based, labor intensive undertaking. In-house resource, external vendor support or outsourced service agreement will have recurring cost.
+As such, all of the software reviewed is a viable solution, in terms of technical performance, efficacy, and cost effectiveness. Zeek and Snort are very capable and customisable. They also integrate well with other systems used in defensive security. OSSEC on the other-hand comes bundled with AlienVault OSSIM, the Open-Source solution of AT\&T's SIEM offering. Installing OSSEC as stand alone performs as good as the other software reviewed. But installing is as part of OSSIM bundle may be easier to deploy, maintain and provide a more rounded defensive security solution.
 
-As such, all of the software reviewed is a viable solution, in terms of technical performance, efficacy, and cost effectiveness. Zeek and Snort are very capable and customizable. They also integrate well with other systems used in defensive security. OSSEC on the otherhand comes bundled with AlienVault OSSIM, the OpenSource solution of AT\&T's SIEM offering. Installing OSSEC as stand alone performs as good as the other software reviewed. But installing is as part of OSSIM bundle may be easier to deploy, maintain and provide a more rounded defensive security solution.
-
-
-The product and vendor reliability and confidence define the key factors that are assessed and evaluated prior to implementation and deployment. Specially for a crucial component that goes into a security system.
-
-All of the software reviewed was the OpenSource version. No actual installation was performed.\\
-
-
-
-
-
-nalysis can be performed on these packet captures,  has been proven to be able to perform analysis and classify unlabeled data of a 25X25px grayscale image representation of a data packet containing a binary. This image was processed with various Machine Learning algorithms to classify if a packet is a malware. Classification can be performed on a Metamorphic or Polymorphic binary as the Hidden Markov Chain method applied is not reliant on a signature match, but can determine the classification based on Gausian Distribution, i.e binary similarity. Another experiment proves that malware classification can be performed using Snort signature  binary files from a sample repository which ar \cite{8674233}  The detection is done either by analyzing the signature of the incoming network packet 
-
-
-\begin{followup}
-    The following items are statements from the abstract that we must address:
-    
-    \begin{itemize}
-        \item <Review how these open source software addresses the identified network threats
-        \item IDS features, capabilities, advantages and limitations will be compared.
-        \item How each system fare with regards to manageability, cost effectiveness and return of investment
-        \item Determine which IDS/IPS are most suitable for SMBs
-    \end{itemize}
-    
-\end{followup}
-
-
-\begin{followup}[to-do]
-    \begin{itemize}
-        \item Provide evidence for security best-practices to further elaborate and support the statement.
-        \item Provide concrete examples where IDS and IPS are ineffective against malware and ransomware.
-    \end{itemize}
-\end{followup}
-
-With all the limitations inherent to IDS and IPS taken into consideration. The most effective, cost effective and manageable systems is...
-
-\begin{followup}[to-do]
-    \begin{itemize}
-        \item Insert name of IDS/IPS here when all the review has been conducted.
-    \end{itemize}
-\end{followup}
-
-
-The IDS an IPS systems must also be protected along with the logs and packet capture data they store.

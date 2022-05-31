@@ -115,7 +115,7 @@ Intrusion Detection Tools (IDS), Small Business, Malware, Ransomware, Machine Le
 \section{Introduction}
 \input{sections/introduction}
 
-\section{Reviewing IDS Systems for Small and Midsized Businesses}
+\section{Reviewing IDS Systems for Small and Mid-sized Businesses}
 \input{sections/topic/topic}
 
 \newpage
@@ -143,6 +143,35 @@ Intrusion Detection Tools (IDS), Small Business, Malware, Ransomware, Machine Le
 
 \section*{Appendix B:}
 
+\subsection{IDS Feature Comparison}
+
+\begin{table}[!ht]
+    \centering
+    \begin{tabular}{|p{1.4cm}|p{1.4cm}|p{1.4cm}|p{1.4cm}|p{1.4cm}|}
+    \hline
+        Software & Zeek & OSSEC & Suricata & Snort \\ \hline
+        NIDS & X & ~ & X & X \\ \hline
+        NIPS & ~ & ~ & X & X \\ \hline
+        HIDS & ~ & X & ~ & X \\ \hline
+        HIPS & ~ & ~ & ~ & X \\ \hline
+        GUI & ~ & ~ & ~ & ~ \\ \hline
+        CLI & X & ~ & ~ & X \\ \hline
+        SIEM & ~ & X & ~ & Supported, Syslog \\ \hline
+        Packet logg/Capture & X & ~ & ~ & X \\ \hline
+        Packet sniffer/filter & ~ & ~ & ~ & X \\ \hline
+        Signature Detection & X & ~ & ~ & X \\ \hline
+        Anomaly Detection & X & X & ~ & X \\ \hline
+        Malware Detection & X & ~ & X & Supported \\ \hline
+        Other features & Misuse detection, behavioral analysis & Rootkit and trojan detection & PCAP analysis, Multi-Threaded, Application Layer Logging & Malware detection is Prepocessor Plugin \\ \hline
+        OS Platform Support & OSX, Linux, Windows & OSX, Linux, Windows & OSX, Linux, Windows & ARM, OSX, Linux, Windows, Cisco IOS-XE \\ \hline
+        Architecture Support & AMD X86, Intel X86 & AMD X86, Intel X86 & AMD X86, Intel X86 & ARM, AMD X86, Intel X86, Cisco ASIC \\ \hline
+        OpenSource Software & X & X & X & X \\ \hline
+        Business, Enterprise Edition & ~ & ~ & ~ & X \\ \hline
+    \end{tabular}
+    \caption{Comparison Table}
+    \label{Feature_Comparison}
+\end{table}
+\newpage
 \subsection{Zeek Pros and Cons} \label{prosncons}
 
 {\bfseries{Pros:}}
@@ -151,7 +180,7 @@ Intrusion Detection Tools (IDS), Small Business, Malware, Ransomware, Machine Le
     \item Zeek is a traffic analysis tool that is completely flexible and expandable. To express any analytic job, Zeek offers a domain-specific, Turing-complete scripting language.
     \item A low-cost alternative to pricey proprietary technologies, Zeek operates on commodity hardware. Zeek is a network monitoring tool that goes well beyond the capabilities of most other tools, which are often confined to a narrow collection of pre-programmed analytic activities.
     \item As a platform for gathering and analysing network data, Zeek is best suited to the task at hand.
-    \item The transaction data provided by Zeek is the company's biggest selling point. This means that if a network interface is being monitored, Zeek will create a collection of high-fidelity, highly annotated transaction logs by default. In a judgment-free, policy-neutral way, these logs explain the protocols and activities on the network.
+    \item The transaction data provided by Zeek is the company's biggest selling point. This means that if a network interface is being monitored, Zeek will create a collection of high-fidelity, highly annotated transaction logs by default. In a judgment-free, policy-neutral way, these logs explain the protocols and activities on the network.\\
 
 \end{itemize}
 
@@ -160,6 +189,7 @@ Intrusion Detection Tools (IDS), Small Business, Malware, Ransomware, Machine Le
 \begin{itemize}
     \item ZeeK/Bro's deep packet inspection consumes a lot of resources, which is a drawback if you're looking for flexibility. In terms of threat intelligence, Snort and Suricata are the two most popular options. The community is continuously attempting to make Bro more user-friendly because of this.
 \end{itemize}
+
 
 \newpage
 \newpage

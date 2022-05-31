@@ -1,15 +1,11 @@
-\subsubsection{Reliable and Well Supported And Well Supported}
+The primary objective of this state-of-the-art paper is very specific. Namely to review a stand-alone IDS solution where its main goal is to detect malware. A solution that is viable for a SMB to implement. In that it is relatively low cost to acquire, implement and maintain. This narrow focus towards a "stand-alone" solution, akin to Anti Virus software offerings, turned out to be amiss. As initial enquiry immediately revealed that IDS functionality comes as part of a security solution, offering both IDS and IPS. Furthermore IDS/IPS is merely a result of a larger process within defensive security. Detecting malware is an active threat-hunting activity. A process that requires packet logs, aka packet capture data, to be analysed either manually or (partly)automated. The result of such and activity must then feed into a system that can alert or trigger an event to occur within the business. As such, the whole solution or process, when fully integrated, is for all intents and purposes, a Security Information and Event Management platform (SIEM).
+
+The IDS reviewed in this paper are OSSEC, Zeek, Suricata and Snort. All the software reviewed have similar capabilities and are OpenSource. Unfortunately all software require some commandline proficiency as they do not offer GUI. Which may make installation, configuration and maintenance cumbersome for some users. However, installation and maintenance is well documented and supported by the OpenSource community. 
+
+All software are relatively easy to install out of the box. But optimizing their detection capability and configuring them to integrate with other defensive security solutions will require in-depth knowledge and competency with the domain of Cyber Security.
+
+In regards to malware and ransomware detection, Zeek is able to detect malware by cross referencing external registries like VirusTotal. Suricata and OSSEC are able to detect malware based on signature and by implementing rules that addresses known malware behaviour. Snort on the other hand does not offer any malware detection built-in. Snort does have a "preprocessor" stage that accepts plugin, adding malware detection capability from third party.
+
+Software comparison table, see Appendix B Table: \ref{Feature_Comparison}.
 
 
-
-Snort's 3 main features or mode of operation, as ofted cited in many Snort tutorial blog post entries, how-to videos on YouTube and Wikipedia are; Packet Sniffer, Packet Logger and Network Intrusion Detection System mode\cite{Wikipedia2022_Snort}. However, Cisco Systems themselves often refer to Snort as an Intrusion Prevention System in their documentation\cite{Ciscco_Snort3_Configuration_Guide_v7} and Cisco Talos Intelligence Group's YouTube video\cite{TIG2020_Snort_101}. As a packet sniffer, it is capable to capture, interpret and process packets akin to Wireshark and tcpdump. As a packet logger Snort can capture network packets (without analyzing) and store them for further analysis.As an Intrusion Detector, Snort has the ability to log events, trigger alerts and other systems it can integrate with like SIEMs. As an Intrusion Prevention System, it can drop packets from the network or trigger other systems that are able to execute preventive measures.\\
-
-\subsubsection{IDS/IPS - Installation}
-
-Lets establish a scenario where we want to address the issue of general intrusion and more specifically malware and ransomware. In this scenario we want to alert malicious network intrusion. At the same time detect malware prevent file extraction from a specific on-site file server.
-
-One simple way to achieve this objective is to implement Snort as an inline NIDS/NIPS inside the SMB network, right behind a firewall. A dedicated AT\&T OSSIM server as SIEM alert and monitoring dashboard. And a dedicated server to run malware analysis on automated with Python scripts and libraries.
-
-The Snort NIDS/NIPS can be configured to perform packet logging regularly with specific interval. This is necessary to capture data that can be used for malware analysis. A static analysis, automated with Python scripts utilizing OpenSource libraries for Machine and Deep Learning, read Windows Portable Executables (PE) etc.
-
-There are different methods to apply Machine Learning to perform malware analysis as described in Alessandro Parisi's "Hands-On Artificial Intelligence for CyberSecurity"\cite{Parisi2019} while A YouTube video by Motasem Hamdan describes basic installation of Snort\cite{YouTube2022_HamdanM}\\

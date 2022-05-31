@@ -16,8 +16,6 @@ Warning--entry type for "Zeek2019" isn't style-file defined
 --line 33 of file main.bib
 Warning--entry type for "Techfunnel" isn't style-file defined
 --line 76 of file main.bib
-Warning--entry type for "YouTube2022_HamdanM" isn't style-file defined
---line 83 of file main.bib
 Warning--entry type for "Haberkorn2019" isn't style-file defined
 --line 166 of file main.bib
 Warning--entry type for "EuropeanCommission-PII" isn't style-file defined
@@ -34,12 +32,6 @@ Warning--entry type for "Lovdata2016_finansforetaksloven" isn't style-file defin
 --line 212 of file main.bib
 Warning--entry type for "Snort2020_MunshawJ" isn't style-file defined
 --line 220 of file main.bib
-Warning--entry type for "Wikipedia2022_Snort" isn't style-file defined
---line 229 of file main.bib
-Warning--entry type for "Ciscco_Snort3_Configuration_Guide_v7" isn't style-file defined
---line 238 of file main.bib
-Warning--entry type for "TIG2020_Snort_101" isn't style-file defined
---line 245 of file main.bib
 -- IEEEtran.bst version 1.12 (2007/01/11) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
@@ -49,45 +41,45 @@ Warning--empty year in Courtland2017
 Warning--empty journal in 322221656
 
 Done.
-You've used 31 entries,
+You've used 26 entries,
             4024 wiz_defined-function locations,
-            984 strings with 13285 characters,
-and the built_in function-call counts, 13202 in all, are:
-= -- 1004
-> -- 244
-< -- 24
-+ -- 121
-- -- 54
-* -- 572
-:= -- 2349
-add.period$ -- 63
-call.type$ -- 31
-change.case$ -- 30
-chr.to.int$ -- 48
-cite$ -- 35
-duplicate$ -- 1080
-empty$ -- 1276
-format.name$ -- 64
-if$ -- 2857
+            958 strings with 12197 characters,
+and the built_in function-call counts, 10832 in all, are:
+= -- 826
+> -- 200
+< -- 16
++ -- 97
+- -- 45
+* -- 475
+:= -- 1955
+add.period$ -- 53
+call.type$ -- 26
+change.case$ -- 25
+chr.to.int$ -- 27
+cite$ -- 30
+duplicate$ -- 893
+empty$ -- 1046
+format.name$ -- 54
+if$ -- 2330
 int.to.chr$ -- 0
-int.to.str$ -- 31
-missing$ -- 229
-newline$ -- 160
-num.names$ -- 31
-pop$ -- 668
+int.to.str$ -- 26
+missing$ -- 189
+newline$ -- 137
+num.names$ -- 26
+pop$ -- 549
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 1001
+skip$ -- 822
 stack$ -- 0
-substring$ -- 140
-swap$ -- 655
-text.length$ -- 8
+substring$ -- 86
+swap$ -- 531
+text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 31
+type$ -- 26
 warning$ -- 4
-while$ -- 36
-width$ -- 33
-write$ -- 315
-(There were 20 warnings)
+while$ -- 28
+width$ -- 28
+write$ -- 267
+(There were 16 warnings)
